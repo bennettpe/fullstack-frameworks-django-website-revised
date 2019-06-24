@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/bennettpe/fullstack-frameworks-django-website.svg?branch=master)](https://travis-ci.org/bennettpe/fullstack-frameworks-django-website)
+[![Build Status](https://travis-ci.org/bennettpe/fullstack-frameworks-django-website-revised.svg?branch=master)](https://travis-ci.org/bennettpe/fullstack-frameworks-django-website-revised)
 
 # Full Stack Frameworks with Django Milestone 5 Project
 
@@ -17,7 +17,7 @@ For project brief see [Project Brief documentation](static/wireframe/My_Full_Sta
 ### My Project Overview
 A web application for classic car parts , parts for the webshop have been gathered from the following website [**scparts.co.uk**](https://www.scparts.co.uk/sc_en/british-cars/triumph/triumph-spitfire-mkiii-mkiv-and-1500-1967-1980.html)
 
-* The user has a choice to do the following  
+* The user has a choice to do the following
   * Register an account with a username and password
   * Log-in with a registered username and password
   * Reset password with a registered username
@@ -25,19 +25,19 @@ A web application for classic car parts , parts for the webshop have been gather
   * View parts by parts diagrams
   * Add products to shopping cart
   * Adjust quantity of parts in shopping cart
-  * Pay for products in shopping cart checkout 
+  * Pay for products in shopping cart checkout
   * Vote to like / dislike products
   * Contact us via contact page
-  * View websits satistics charts 
+  * View websits satistics charts
 
-## UX  
+## UX
 
-### Who is this website for ?  
+### Who is this website for ?
 * A website that allows users to view and purchase classic car parts.
 
 ### What is it they want to achieve ?
 To provide a online eCommerce wbsite that users must be able to do the following
-    
+
 * Add products to use Stripe shopping cart checkout (only if Logged in).
 * Adjust quantity in Shopping cart
 * Add User via registration and authentication processes.
@@ -46,7 +46,7 @@ To provide a online eCommerce wbsite that users must be able to do the following
 * Contact us via contact page
 * Ensure there's a README.md.
 
-### How the project is best way to achieve these things ? 
+### How the project is best way to achieve these things ?
 * Create Web Application (Create New Ecommerce multi app Django web application.)
 * Include Ecommerce functionality (Create app(s) to use Stripe (Shopping cart checkout)
 * Include Form validation (Create form(s) to allow users to Create / Edit models in backend)
@@ -61,7 +61,7 @@ To provide a online eCommerce wbsite that users must be able to do the following
 * Deploy Final Version (Use Heroku as hosting platform)
 * Ensure there’s a README.md (A project submitted without a README.md file will FAIL)
 
-### Project Planning & Wireframe Mockup 
+### Project Planning & Wireframe Mockup
 For planning see [Planning documentation](static/wireframe/My_Full_Stack_Frameworks_with_Django_Milestone_Project_Planning.pdf) <br>
 For wireframe see [Wireframe documentation](static/wireframe/My_Full_Stack_Frameworks_with_Django_Wireframe.pdf)
 
@@ -73,31 +73,31 @@ My SQLite3 (Development) / Postgres (Production) database consists of the follow
 * products_product
 * products_userating
 
-![Database schema](static/wireframe/My_Full_Stack_Frameworks_with_Django_Database_Schema_Diagram.jpg)   
+![Database schema](static/wireframe/My_Full_Stack_Frameworks_with_Django_Database_Schema_Diagram.jpg)
 Diagram of website database schema
 
 
-### Functional Flow    
-On the **navbar** there are the following eight icons (**Home**, **About**, **Parts**, **Register**, **Log in**, **Cart**, **Contact**, **Charts**) <br> and on the page there are **Register** and **log in** buttons.    
+### Functional Flow
+On the **navbar** there are the following eight icons (**Home**, **About**, **Parts**, **Register**, **Log in**, **Cart**, **Contact**, **Charts**) <br> and on the page there are **Register** and **log in** buttons.
 Unregistered users can search parts by, clicking on parts which then shows a parts category dropdown. <br>
-The **Register** button allows uses to register username and password.   
+The **Register** button allows uses to register username and password.
 The **sign in** button allows users to sign in.
 once signed in the login and register icon are removed and a Log out icon is shown with userid. <br>
 When **logging out** a message is displayed saying **You have successfully been logged out**. <br>
 When **logging in** as **admin** a icon is shown on the navbar to access the django admin panel.
 
-![Functional flow](static/wireframe/My_Full_Stack_Frameworks_with_Django_Functional_Flow.jpg)   
-Diagram of website functional flow  
+![Functional flow](static/wireframe/My_Full_Stack_Frameworks_with_Django_Functional_Flow.jpg)
+Diagram of website functional flow
 
 ### Technologies
 <details>
 <summary>
-Technologies Used in this project 
+Technologies Used in this project
 </summary>
 <p>
-    
-   
-Technologies used in the construction of this project include,  
+
+
+Technologies used in the construction of this project include,
 * [Badel](https://pypi.org/project/Babel/) is a collection of tools for internationalizing Python applications.
 * [Bootstrap](https://getbootstrap.com/) is a framework for building responsive, mobile-first websites.
 * [Bootstrap-Magnify](https://github.com/marcaube/bootstrap-magnify) is a small js plugin to enhance porte-folios and image galleries.
@@ -114,7 +114,7 @@ Technologies used in the construction of this project include,
 * [Django-Forms-Bootstrap](https://github.com/pinax/django-forms-bootstrap) is a simple bootstrap filter for Django forms.
 * [Django-Storages](https://pypi.org/project/django-storages/) is a collection of custom storage backends for Django.
 * [Django-Phonenumber-Field](https://pypi.org/project/django-phonenumber-field/) is a Django library which interfaces with phonenumbers to validate, convert phone nums.
-* [Phonenumbers](https://github.com/daviddrysdale/python-phonenumbers) is a Python port of Google's libphonenumber library 
+* [Phonenumbers](https://github.com/daviddrysdale/python-phonenumbers) is a Python port of Google's libphonenumber library
 * [Dj-database-url](https://pypi.org/project/dj-database-url/) is a Django utility to utilize the 12factor inspired DATABASE_URL env va to configure your Django app.
 * [Font Awesome](https://fontawesome.com/) is a font and icon toolkit.
 * [Git](https://git-scm.com/) open source distributed version control system.
@@ -130,7 +130,7 @@ Technologies used in the construction of this project include,
 * [Jmespath](http://jmespath.org/) is a query language for JSON.
 * [Pencil](https://pencil.evolus.vn/) is an open-source GUI prototyping tool used to create Wireframe mockup.
 * [Pillow](https://pypi.org/project/Pillow/) is a Pillow is the friendly PIL fork.
-* [Psycopg2](http://initd.org/psycopg/) is a popular PostgreSQL adapter for the Python. 
+* [Psycopg2](http://initd.org/psycopg/) is a popular PostgreSQL adapter for the Python.
 * [Python 3.4.3](https://www.python.org/) is a scripting language.
 * [Pytz](https://pypi.org/project/pytz/) is a World timezone definitions, modern and historical.
 * [Requests]() is a Python HTTP for Humans.
@@ -138,13 +138,13 @@ Technologies used in the construction of this project include,
 * [Slack](https://code-institute-room.slack.com/messages) is a collaboration hub that connects your organization.
 * [Python-dateutil]() is a Extensions to the standard Python datetime module.
 * [Sqlite3](https://www.sqlite.org/index.html) is a C-language library that implements a SQL database engine.
-* [SQLite Maestro](https://www.sqlmaestro.com/products/sqlite/maestro/) is a admin tool for database management, control and development. 
+* [SQLite Maestro](https://www.sqlmaestro.com/products/sqlite/maestro/) is a admin tool for database management, control and development.
 * [Sql Postgres](https://www.postgresql.org/)is a powerful, open source object-relational database system
 * [Stripe](https://stripe.com/gb) is a powerful and flexible tools for internet commerce.
 * [Travis](https://travis-ci.com/) is a hosted continuous integration service used to build and test software projects hosted at GitHub.
 * [Urllib3](https://pypi.org/project/urllib3/) is a HTTP library with thread-safe connection pooling, file post, and more.
 </details>
-    
+
 ## Setting up Project Enviroment
 <details>
 <summary>
@@ -153,7 +153,7 @@ Step 01 - Django Product Enviroment
 <p>
 
 ## Git
-Make sure once the workspace has been created in Cloud9 you create the following for git by typing the following commands,  
+Make sure once the workspace has been created in Cloud9 you create the following for git by typing the following commands,
 * `git init` to create a empty Git repository. <br>
 * Create `.gitignore` which specifies intentionally untracked files to ignore <br>
 * Add to `.gitignore` file the ignore file(s) for the environments you are using in your workspace i.e. `Cloud9`, `Django`, `Python` by copying ignore files from [GitIgnore](https://www.gitignore.io/) <br>
@@ -163,12 +163,12 @@ Make sure once the workspace has been created in Cloud9 you create the following
 1. Create the project Clould9 Workspace **fullstack-frameworks-django-project** <br>
 
 2. Install Django 1.11.20 <br>
-    ```python 
-    sudo pip3 install django==1.11.20 
-    ``` 
-    This installs **django 1.11.20** and **pytz 2018.9** 
-    
-    output from bash terminal 
+    ```python
+    sudo pip3 install django==1.11.20
+    ```
+    This installs **django 1.11.20** and **pytz 2018.9**
+
+    output from bash terminal
     ```bash
     bennettpe:~/workspace $ sudo pip3 install django==1.11.20
     Downloading/unpacking django==1.11.20
@@ -189,8 +189,8 @@ Make sure once the workspace has been created in Cloud9 you create the following
     bennettpe:~/workspace $ git init
     Initialized empty Git repository in /home/ubuntu/workspace/.git/
     ```
-    
-4. Create `.gitignore` and `README.md` files 
+
+4. Create `.gitignore` and `README.md` files
 
 5. Create `requirements.txt` file <br>
    ```bash
@@ -214,7 +214,7 @@ Make sure once the workspace has been created in Cloud9 you create the following
    bennettpe:~/workspace (master) $ git remote add origin https://github.com/bennettpe/fullstack-frameworks-django-website.git
    bennettpe:~/workspace (master) $ git push -u origin master
    Username for 'https://github.com': bennettpe
-   Password for 'https://bennettpe@github.com': 
+   Password for 'https://bennettpe@github.com':
    Counting objects: 5, done.
    Delta compression using up to 8 threads.
    Compressing objects: 100% (4/4), done.
@@ -227,16 +227,16 @@ Make sure once the workspace has been created in Cloud9 you create the following
    Heroku Git URL https://git.heroku.com/fullstack-frameworks-project.git
 
 7. Go to Heroku https://dashboard.heroku.com/apps and <br> Create new app called `fullstack-frameworks-project` <br>
-   Click on `Create New App` fill in `App name`   
-   Click on `Choose a region` and select `Europe`   
+   Click on `Create New App` fill in `App name`
+   Click on `Choose a region` and select `Europe`
    Click on `Create app` button
 
 8. Install Gunicorn
    ```python
    sudo pip3 install gunicorn
    ```
-   This installs **gunicorn 19.9.0** 
-   
+   This installs **gunicorn 19.9.0**
+
    output from bash terminal
    ```bash
    bennettpe:~/workspace (master) $ sudo pip3 install gunicorn
@@ -251,7 +251,7 @@ Make sure once the workspace has been created in Cloud9 you create the following
    ```python
    sudo pip3 install psycopg2
    ```
-   This installs **psycopg2 2.8**  
+   This installs **psycopg2 2.8**
 
    output from bash terminal
    ```bash
@@ -263,14 +263,14 @@ Make sure once the workspace has been created in Cloud9 you create the following
        warnings.warn(msg)
      /usr/lib/python3.4/distutils/dist.py:260: UserWarning: Unknown distribution option: 'python_requires'
        warnings.warn(msg)
-    
+
    Installing collected packages: psycopg2
    Running setup.py install for psycopg2
      building 'psycopg2._psycopg' extension
-     
-   ....    
+
+   ....
    Successfully installed psycopg2
-   Cleaning up...    
+   Cleaning up...
    ```
 10.  Create `requirements.txt` file <br>
    ```bash
@@ -279,10 +279,10 @@ Make sure once the workspace has been created in Cloud9 you create the following
    output from bash terminal
    ```bash
    bennettpe:~/workspace (master) $ sudo pip freeze --local > requirements.txt
-   ``` 
+   ```
 
 11. Create a new PostgreSQL database on Heroku
-    Click on `Resources`   
+    Click on `Resources`
     Scroll down to `Add-ons` type `Postgres` <br> select `Heroku Postgres` <br> select `Hobby Dev - Free plan` <br> click on `Provision` button <br>
     This creates a empty database
 
@@ -290,7 +290,7 @@ Make sure once the workspace has been created in Cloud9 you create the following
     ```python
     sudo pip3 install dj-database-url
     ```
-    This installs **dj-database-url 0.5.0** 
+    This installs **dj-database-url 0.5.0**
 
     ouput from bash terminal
     ```bash
@@ -306,19 +306,19 @@ Make sure once the workspace has been created in Cloud9 you create the following
     ```python
     django-admin startproject triumphant_triumphs .
     ```
- 
+
      ouput from bash terminal
     ```bash
-    bennettpe:~/workspace (master) $ django-admin startproject triumphant_triumphs .  
+    bennettpe:~/workspace (master) $ django-admin startproject triumphant_triumphs .
     ```
-    
+
     The following django files have been created
     ```
     fullstack-frameworks-django-project
     │
     ├── triumphant_triumphs
     │   │
-    │   ├── __init__.py   # An empty file that tells Python that this directory should be considered a Python package. 
+    │   ├── __init__.py   # An empty file that tells Python that this directory should be considered a Python package.
     │   ├── settings.py   # Settings/configuration for this Django project.
     │   ├── urls.py       # The URL declarations for this Django project; a “table of contents” of your Django-powered site.
     │   └── wsgi.py       # An entry-point for WSGI-compatible web servers to serve your project.
@@ -332,12 +332,12 @@ Make sure once the workspace has been created in Cloud9 you create the following
     ```
 
 15. Run the following command to check running server is ok
-    ``` 
+    ```
     python3 manage.py runserver SIP:$C9_PORT
     ```
 
     output from bash terminal
-    ```bash 
+    ```bash
     bennettpe:~/workspace (master) $ python3 manage.py runserver $IP:$C9_PORT
     Performing system checks...
 
@@ -351,9 +351,9 @@ Make sure once the workspace has been created in Cloud9 you create the following
     Starting development server at http://0.0.0.0:8080/
     Quit the server with CONTROL-C.
     ```
-    
+
     Click on link `your code is running at  https://fullstack-frameworks-django-project-bennettpe.c9users.io`
-    and you see the following 
+    and you see the following
     ```bash
     It worked!
     Congratulations on your first Django-powered page.
@@ -361,14 +361,14 @@ Make sure once the workspace has been created in Cloud9 you create the following
 
     You're seeing this message because you have DEBUG = True in your Django settings file and you haven't configured any URLs. Get to work!
     ```
-    
+
     output from bash terminal
     ```bash
     Not Found: /favicon.ico
     [06/Apr/2019 08:21:15] "GET /favicon.ico HTTP/1.1" 404 2017
     [06/Apr/2019 08:21:17] "GET / HTTP/1.1" 200 1716
     ```
-16. Click on COG in workspace and click on `Show home in Favourites` 
+16. Click on COG in workspace and click on `Show home in Favourites`
     In workspace folder open up `.bash_aliases` file and add the following new alias to the bottom of the file.
     ```python
     alias run="python3 ~/workspace/manage.py runserver $IP:$C9_PORT"
@@ -378,13 +378,13 @@ Make sure once the workspace has been created in Cloud9 you create the following
 
 17. Add `*.sqlite3 .~c9*files` files to ignore in `.gitignore`
 
-18. Run `git status` to check which files will be added and commited to Git. 
+18. Run `git status` to check which files will be added and commited to Git.
 
 19. Run the following command to initialize our databases and get table ready.
     ```python
     python3 manage.py migrate
     ```
-    
+
     output from bash terminal
     ```bash
     bennettpe:~/workspace (master) $ python3 manage.py migrate
@@ -429,38 +429,38 @@ Make sure once the workspace has been created in Cloud9 you create the following
 Step 02 - AUTHENTICATION App
 </summary>
 <p>
-    
-## Step2 Authentication App - Authentication and Authorisation 
+
+## Step2 Authentication App - Authentication and Authorisation
 
 This section is for setting up an **authentication mechanism** to allow users to register and log in.
 
-1. **Create** Django app called **account** 
+1. **Create** Django app called **account**
     ```python
     django-admin startproject accounts
     ```
- 
+
      ouput from bash terminal
     ```bash
-    bennettpe:~/workspace (master) $ django-admin startapp accounts 
+    bennettpe:~/workspace (master) $ django-admin startapp accounts
     ```
-    
+
     The following django files have been **created**
     ```
     fullstack-frameworks-django-project
     │
     └── accounts
         ├── migrations
-        │   └── __init__.py # Python file to allow app packages to be imported from other directories.  
+        │   └── __init__.py # Python file to allow app packages to be imported from other directories.
         │
-        ├── __init__.py     # Python file to allow app packages to be imported from other directories. 
-        ├── admin.py        # File with admin definitions for the app. 
+        ├── __init__.py     # Python file to allow app packages to be imported from other directories.
+        ├── admin.py        # File with admin definitions for the app.
         ├── apps.py         # File with configuration parameters for the app.
         ├── models.py       # File with database definitions (i.e., model classes) for the app.
         ├── tests.py        # File with test definitions for the app.
         └── views.py        # File with view definitions (i.e., controller methods) for the app.
-    ```    
-2. In **setting.py** 
-   go to **INSTALLED_APPS** section and add line containing **accounts** 
+    ```
+2. In **setting.py**
+   go to **INSTALLED_APPS** section and add line containing **accounts**
    ```python
    # Application definition
 
@@ -485,12 +485,12 @@ This section is for setting up an **authentication mechanism** to allow users to
    bennettpe:~/workspace (master) $ python3 manage.py createsuperuser
    Username (leave blank to use 'ubuntu'): admin
    Email address: admin@gmail.com
-   Password: 
-   Password (again): 
+   Password:
+   Password (again):
    Superuser created successfully.
    ```
-   
-4. Log into Django admin 
+
+4. Log into Django admin
    **Go to** https://fullstack-frameworks-django-project-bennettpe.c9users.io/admin <br>
    Enter **Username** and **Password** created in admin superuser. <br>
    Your now have access to the Django admin panel.
@@ -525,7 +525,7 @@ This section is for setting up an **authentication mechanism** to allow users to
 
 7. Create a url pattern in **triumphant_triumphs/urls.py**
    ```python
-   from accounts.views import index   
+   from accounts.views import index
    url(r'^$', index),
    ```
 
@@ -555,14 +555,14 @@ This section is for setting up an **authentication mechanism** to allow users to
     from accounts.views import index, logout <== add logout
     url(r'^accounts/logout/$', logout, name="logout")
     ```
-    
+
     amend
     ```python
-    url(r'^$', index),               <== change from 
+    url(r'^$', index),               <== change from
     url(r'^$', index, name="index"), <== change to
-    ``` 
+    ```
 
-11. Add Django messages 
+11. Add Django messages
     in **accounts/views.py**
     amend
     ```python
@@ -585,7 +585,7 @@ This section is for setting up an **authentication mechanism** to allow users to
     </div>
         {% endif %}
     ```
-    
+
     Update **settings.py** file
     ```python
     MESSAGE_STORAGE ="django.contrib.messages.storage.session.SessionStroage"
@@ -593,7 +593,7 @@ This section is for setting up an **authentication mechanism** to allow users to
 
 12. Create a view function called **login** in **accounts/views.py**
     ```python
-    # The 'logoin' view allows users to login 
+    # The 'logoin' view allows users to login
     def login(request):
     """Log the user in"""
     return render(request, 'login.html')
@@ -606,8 +606,8 @@ This section is for setting up an **authentication mechanism** to allow users to
      <li> <a href="{% url 'logoin' %}"> Logoin </a></li>  <== change to
     ```
 
-14. Copy contents of **accounts/templates/index.html**   
-    Create           **accounts/templates/login.html**   
+14. Copy contents of **accounts/templates/index.html**
+    Create           **accounts/templates/login.html**
     Amend H1 heading to `User Login`
 
 15. Create a url pattern in **triumphant_triumphs/urls.py**
@@ -622,23 +622,23 @@ This section is for setting up an **authentication mechanism** to allow users to
 
     class UserLoginForm(forms.Form):
     """Form to be used to log users in """
-    
+
     username = forms.CharField()
     password = forms.CharField(widget=forms.PasswordInput)
     ```
 
 17. Update **accounts/view.py**
-    Add 
+    Add
     ```python
     from accounts.forms import UserLoginForm
     ```
     Amend in view function called **login**
     ```python
      login_form = UserLoginForm() <== add this line
-     return render(request, 'login.html') <== change from 
+     return render(request, 'login.html') <== change from
      return render(request, 'login.html', {"login_form": login_form}) <== change to
     ```
-  
+
 18. Update **accounts/templates/login.html
     Add
     ```python
@@ -646,8 +646,8 @@ This section is for setting up an **authentication mechanism** to allow users to
             {% csrf_token %}
             {{ login_form.as_p }}
             <button type="submit"> Login </button>
-        </form> 
-        
+        </form>
+
         {% if messages %}
             <div>
                 {% for messages in messages %}
@@ -660,21 +660,21 @@ This section is for setting up an **authentication mechanism** to allow users to
 19. Backend logic to authenticate user in **accounts/views.py**
     Add
     ```python
-    # The 'logoin' view allows users to login 
+    # The 'logoin' view allows users to login
     def login(request):
     """Log the user in"""
     if request.method == "POST":
         login_form = UserLoginForm(request.POST)
-        
+
         if login_form.is_valid():
             user = auth.authenticate(username=request.POST['username'],
                                      password=request.POST['password'])
             if user:
                 auth.login(user=user, request=request)
-                messages.success(request, "You have successfully logged in!") 
+                messages.success(request, "You have successfully logged in!")
             else:
                 login_form.add_error(None, "Your username or password is incorrect")
-                
+
     else:
         login_form = UserLoginForm()
     return render(request, 'login.html', {"login_form": login_form})
@@ -689,7 +689,7 @@ This section is for setting up an **authentication mechanism** to allow users to
     <head>
         <title> {% block page_title %} {% endblock %} </title>
     </head>
-    
+
     <body>
         <h1> {% block page_heading %} {% endblock %} </h1>
         <nav>
@@ -718,45 +718,45 @@ This section is for setting up an **authentication mechanism** to allow users to
     {% extends 'base.html' %}
 
     {% block page_title %} Home Page {% endblock %}
-    {% block page_heading %} Home    {% endblock %} 
+    {% block page_heading %} Home    {% endblock %}
     ```
-    
-    Update DIRS= in **settings.py** 
+
+    Update DIRS= in **settings.py**
     ```python
     'DIRS': [os.path.join(BASE_DIR, 'templates')],
     ```
-    
+
     Update **login.html** in **fullstack-frameworks-django-project/templates**
     ```html
     {% extends 'base.html' %}
 
     {% block page_title %} Login Page {% endblock %}
-    {% block page_heading %} User Login {% endblock %} 
+    {% block page_heading %} User Login {% endblock %}
 
     {% block content %}
     <form method="POST">
      {% csrf_token %}
         {{ login_form.as_p }}
         <button type="submit"> Login </button>
-    </form> 
+    </form>
     {% endblock %}
     ```
-    
+
 21. Apply If user is not logged in show Register / Login options
     update **base.html** in **fullstack-frameworks-django-project/templates**
     ```html
     <ul>
-        {% if user.is_authenticated %}  
+        {% if user.is_authenticated %}
             <li> <a href="#"> Profile </a></li>
             <li> <a href="{% url 'logout' %}"> Logout </a></li>
         {% else %}
             <li> <a href="#"> Register </a></li>
             <li> <a href="{% url 'login' %}" > Login </a></li>
-        {% endif %}      
+        {% endif %}
     </ul>
     ```
 
-22. Allow logging out of users to only logged in users 
+22. Allow logging out of users to only logged in users
     Update **views.py** in **fullstack-frameworks-django-project/accounts**
     add if request.user_is_authenticated:
     ```python
@@ -771,7 +771,7 @@ This section is for setting up an **authentication mechanism** to allow users to
     add
     ```bash
     from django.contrib.auth.decorators import login_required
-    
+
     @login_required <== add this line
     def logout(request):
     ```
@@ -800,11 +800,11 @@ This section is for setting up an **authentication mechanism** to allow users to
 
 2. Create new file **urls.py** in **fullstack-frameworks-django-project/accounts/** <br>
    Cut urls for accounts from **urls.py** in **fullstack-frameworks-django-project**
-   Add `include` 
+   Add `include`
    ```python
    # Accounts related urls
 
-   from django.conf.urls import url, include                                    
+   from django.conf.urls import url, include
    from accounts.views import index, logout, login, registration, user_profile
    import url_reset
 
@@ -813,8 +813,8 @@ This section is for setting up an **authentication mechanism** to allow users to
        url(r'^login/$', login, name="login"),
        url(r'^register/$', registration, name="registration"),
        url(r'^profile/$', user_profile, name="profile"),
-       url(r'^password-reset/', include(url_reset)) 
-   ]    
+       url(r'^password-reset/', include(url_reset))
+   ]
    ```
 3. Update file **urls.py** in **fullstack-frameworks-django-project**
    Remove accounts urls
@@ -830,7 +830,7 @@ This section is for setting up an **authentication mechanism** to allow users to
       url(r'^accounts/', include(accounts_urls)) <== add this line
    ]
    ```
-   
+
 #### Sending email to Console
 1.  Add to **settings.py**
     ```python
@@ -841,7 +841,7 @@ This section is for setting up an **authentication mechanism** to allow users to
 1.  Create new folder **registration** in **fullstack-frameworks-django-project/templates/** <br>
     Create new file   **password_reset_form.html** in **fullstack-frameworks-django-project/templates/registration**
     ```html
-     <!--Password Reset Form --> 
+     <!--Password Reset Form -->
 
     {% extends 'base.html' %}
     {% block page_title %} Password reset page {% endblock %}
@@ -850,13 +850,13 @@ This section is for setting up an **authentication mechanism** to allow users to
     {% block content %}
     <form method="POST">
     <p> Please enter your email address </p>
-    
+
     {% csrf_token %}
     {{ form.email.errors }}
     <p>
         <label for="id_email"> Email address: </label>
         {{ form.email }}
-        
+
         <buttton> Reset Password </buttton>
     </p>
     </form>
@@ -869,18 +869,18 @@ This section is for setting up an **authentication mechanism** to allow users to
     <p><a href="{% url 'password_reset' %}"> Reset Password </a></p>
     ```
 
-#### Sending a Real Email  
-1.  Add the following to **settings.py** in **fullstack-frameworks-django-project/triumphant_triumphs** 
+#### Sending a Real Email
+1.  Add the following to **settings.py** in **fullstack-frameworks-django-project/triumphant_triumphs**
     ```python
     EMAIL_USE_TLS = True
-    EMAIL_HOST = 'smtp.gmail.com' 
+    EMAIL_HOST = 'smtp.gmail.com'
     EMAIL_HOST_USER = os.environ.get("EMAIL_ADDRESS")
     EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_PASSWORD")
     EMAIL_PORT = 587
     ```
 
 #### Email Authentication
-1. Add the following to **settings.py** in **fullstack-frameworks-django-project/triumphant_triumphs**    
+1. Add the following to **settings.py** in **fullstack-frameworks-django-project/triumphant_triumphs**
     ```python
     AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
@@ -889,37 +889,37 @@ This section is for setting up an **authentication mechanism** to allow users to
     ```
 2.  Create new file   **backends.py** in **fullstack-frameworks-django-project/accounts**
     ```python
-    # Email Authentication 
+    # Email Authentication
 
     from django.contrib.auth.models import User
 
     class EmailAuth:
     """Authenticate a user by an exact match on the email and password"""
-    
+
     def authenticate(self, username=None, password=None):
         """ Get an instance of `User` based off the email and verify the password """
-        
+
         try:
             user = User.objects.get(email=username)
-            
+
             if user.check_password(password):
                 return user
             return None
         except User.DoesNotExist:
             return None
-            
+
     def get_user(self, user_id):
         """ Used by the Django authentication sysytem to receive a user instance """
-        
+
         try:
             user = User.objects.get(pk=user_id)
-            
+
             if user.is_active:
                 return user
             return None
         except User.DoesNotExist:
             return None
-    ```  
+    ```
 </details>
 
 <details>
@@ -927,7 +927,7 @@ This section is for setting up an **authentication mechanism** to allow users to
 Step 03 - Django-forms-bootstrap, Static files, Install Travis, Stripe.
 </summary>
 <p>
-    
+
 #### Adding Bootstrap Styling
 1. Add bootstrap cdn links to **base.html** **fullstack-frameworks-django-project/templates**
 
@@ -936,7 +936,7 @@ Step 03 - Django-forms-bootstrap, Static files, Install Travis, Stripe.
     ```python
     sudo pip3 install django-forms-bootstrap
     ```
-    This installs **dj-forms-bootstrap 3.1.0** 
+    This installs **dj-forms-bootstrap 3.1.0**
 
     ouput from bash terminal
     ```bash
@@ -946,9 +946,9 @@ Step 03 - Django-forms-bootstrap, Static files, Install Travis, Stripe.
     Successfully installed django-forms-bootstrap
     Cleaning up...
     ```
-    
-2. In **setting.py** 
-   go to **INSTALLED_APPS** section and add line containing **django_forms_bootstrap** 
+
+2. In **setting.py**
+   go to **INSTALLED_APPS** section and add line containing **django_forms_bootstrap**
    ```python
    # Application definition
 
@@ -960,7 +960,7 @@ Step 03 - Django-forms-bootstrap, Static files, Install Travis, Stripe.
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_forms_bootstrap',     <== this line added.
-    'accounts',                  
+    'accounts',
     ]
    ```
 
@@ -971,7 +971,7 @@ Step 03 - Django-forms-bootstrap, Static files, Install Travis, Stripe.
    output from bash terminal
    ```bash
    bennettpe:~/workspace (master) $ sudo pip3 freeze --local > requirements.txt
-   ``` 
+   ```
 
 4. in **registration.html** <br>
 
@@ -984,15 +984,15 @@ Step 03 - Django-forms-bootstrap, Static files, Install Travis, Stripe.
     ```python
     {{ registration_form | as_bootstrap }}
     ```
-    
-5. in **login.html** 
+
+5. in **login.html**
     Add
     ```python
     {% load bootstrap_tags %}
 `   ```
 
     Amend to
-    
+
     ```python
     {{ login_form | as_bootstrap }}
     ```
@@ -1005,14 +1005,14 @@ Step 03 - Django-forms-bootstrap, Static files, Install Travis, Stripe.
     ```python
     {% load staticfiles %}
     ```
-    
+
 5. Add to file *settings.py**       in **fullstack-frameworks-django-project/triumphant_triumphs**
     ```python
     STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
     )
     ```
-    
+
 6. Add to file **styles.css** in **fullstack-frameworks-django-project/static/css**
     ```html
     form {
@@ -1029,7 +1029,7 @@ Step 03 - Django-forms-bootstrap, Static files, Install Travis, Stripe.
 6. Choose Markdown
 7. Copy Code that appears
 8. Paste Code into top of README.md file
-9. Create new file **.travis.yml** 
+9. Create new file **.travis.yml**
 10. Add the following to **.travis.yml**
 
     ```python
@@ -1055,7 +1055,7 @@ Step 03 - Django-forms-bootstrap, Static files, Install Travis, Stripe.
     rewrite templates/registration/password_reset_form.html (65%)
     bennettpe:~/workspace (master) $ git push
     Username for 'https://github.com': bennettpe
-    Password for 'https://bennettpe@github.com': 
+    Password for 'https://bennettpe@github.com':
     Counting objects: 84, done.
     Delta compression using up to 8 threads.
     Compressing objects: 100% (79/79), done.
@@ -1071,7 +1071,7 @@ Step 03 - Django-forms-bootstrap, Static files, Install Travis, Stripe.
     ```python
     sudo pip3 install stripe
     ```
-    This installs **stripe 2.24.1** 
+    This installs **stripe 2.24.1**
                   **requests-2.21.0**
                   **chardet-3.0.4**
                   **urllib3-1.24.1**
@@ -1102,7 +1102,7 @@ Step 03 - Django-forms-bootstrap, Static files, Install Travis, Stripe.
     Successfully installed stripe requests chardet urllib3 idna certifi
     Cleaning up...
     ```
-    
+
 2.  Update `requirements.txt` file <br>
    ```bash
    sudo pip3 freeze --local > requirements.txt
@@ -1110,7 +1110,7 @@ Step 03 - Django-forms-bootstrap, Static files, Install Travis, Stripe.
    output from bash terminal
    ```bash
    bennettpe:~/workspace (master) $ sudo pip3 freeze --local > requirements.txt
-   ``` 
+   ```
 
 1. Go to https://dashboard.stripe.com and either login or create an account
 2. Add to file **settings.py** in **fullstack-frameworks-django-project/triumphant_triumphs**
@@ -1122,17 +1122,17 @@ Step 03 - Django-forms-bootstrap, Static files, Install Travis, Stripe.
    Copy Publishable key and Secret key from your stripe dashboard
    NB Do not push these keys to github as anyone thats gets these keys can hack into your account
    Make sure you add env.py to your .gitignore file
-   
+
    ```python
    import os
 
    os.environ.setdefault("STRIPE_PUBLISHABLE", "add key here")
    os.environ.setdefault("STRIPE_SECRET", "add key here")
    ```
-4. Add to file **.gitignore** in **fullstack-frameworks-django-project/triumphant_triumphs**   
+4. Add to file **.gitignore** in **fullstack-frameworks-django-project/triumphant_triumphs**
    eny.py
 5. Do a `git status` to make sure **eny.py** is exclude
-6. Add to file **settings.py** in **fullstack-frameworks-django-project/triumphant_triumphs**   
+6. Add to file **settings.py** in **fullstack-frameworks-django-project/triumphant_triumphs**
    import env
 7. git commit changes
 </details>
@@ -1142,38 +1142,38 @@ Step 03 - Django-forms-bootstrap, Static files, Install Travis, Stripe.
 Step 04 - PRODUCTS App
 </summary>
 <p>
-    
-## Products App 
+
+## Products App
 
 This section is for setting up an **products** to allow users ability to select products.
 
-1. **Create** Django app called **products** 
+1. **Create** Django app called **products**
     ```python
     python3 manage.py startapp products
     ```
 
     ouput from bash terminal
     ```bash
-    bennettpe:~/workspace (master) $ python3 manage.py startapp products 
+    bennettpe:~/workspace (master) $ python3 manage.py startapp products
     ```
-    
+
      The following django files have been **created**
     ```
     fullstack-frameworks-django-project
     │
     └── products
         ├── migrations
-        │   └── __init__.py # Python file to allow app packages to be imported from other directories.  
+        │   └── __init__.py # Python file to allow app packages to be imported from other directories.
         │
-        ├── __init__.py     # Python file to allow app packages to be imported from other directories. 
-        ├── admin.py        # File with admin definitions for the app. 
+        ├── __init__.py     # Python file to allow app packages to be imported from other directories.
+        ├── admin.py        # File with admin definitions for the app.
         ├── apps.py         # File with configuration parameters for the app.
         ├── models.py       # File with database definitions (i.e., model classes) for the app.
         ├── tests.py        # File with test definitions for the app.
         └── views.py        # File with view definitions (i.e., controller methods) for the app.
-    ```  
-    
-2. Add to **models.py** in **fullstack-frameworks-django-project/products** 
+    ```
+
+2. Add to **models.py** in **fullstack-frameworks-django-project/products**
     ```python
     from django.db import models
 
@@ -1188,12 +1188,12 @@ This section is for setting up an **products** to allow users ability to select 
     description = models.TextField()
     image = models.ImageField(upload_to='images')
     price = models.DecimalField(max_digits=6, decimal_places=2)
-   
+
     def __str__(self):
         return self.part_name
     ```
 
-3. Add to **admin.py** in **fullstack-frameworks-django-project/products**      
+3. Add to **admin.py** in **fullstack-frameworks-django-project/products**
    To allow products to be added through the admin panel
    ```python
    from django.contrib import admin
@@ -1203,8 +1203,8 @@ This section is for setting up an **products** to allow users ability to select 
    admin.site.register(Product)
    ```
 
-4. In **setting.py** 
-   go to **INSTALLED_APPS** section and add line containing **products** 
+4. In **setting.py**
+   go to **INSTALLED_APPS** section and add line containing **products**
    ```python
    # Application definition
 
@@ -1215,30 +1215,30 @@ This section is for setting up an **products** to allow users ability to select 
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_forms_bootstrap',     
-    'accounts',  
+    'django_forms_bootstrap',
+    'accounts',
     'products',               <== this line added.
     ]
    ```
 
 5. Install pillow
     Have to install pillow 5.4.1 as clould9 uses python3.4
-    
+
     Backwards Incompatible Changes
     Python 3.4 dropped
-    Python 3.4 is EOL since 2019-03-16 and no longer supported.    
-    We will not be creating binaries, testing, or retaining compatibility with this version.   
+    Python 3.4 is EOL since 2019-03-16 and no longer supported.
+    We will not be creating binaries, testing, or retaining compatibility with this version.
     The final version of Pillow for Python 3.4 is 5.4.1.
-    
+
     ```python
-    sudo pip3 install pillow==5.4.1 
+    sudo pip3 install pillow==5.4.1
     ```
-    
-    This installs **pillow 5.4.1** 
+
+    This installs **pillow 5.4.1**
 
     ouput from bash terminal
     ```bash
-    bennettpe:~/workspace (master) $ sudo pip3 install pillow==5.4.1 
+    bennettpe:~/workspace (master) $ sudo pip3 install pillow==5.4.1
     Downloading/unpacking pillow==5.4.1
     Downloading Pillow-5.4.1.tar.gz (16.0MB): 16.0MB downloaded
     Running setup.py (path:/tmp/pip_build_root/pillow/setup.py) egg_info for package pillow
@@ -1265,13 +1265,13 @@ This section is for setting up an **products** to allow users ability to select 
     To add a missing option, make sure you have the required
     library and headers.
     See https://pillow.readthedocs.io/en/latest/installation.html#building-from-source
-    
+
     To check the build, run the selftest.py script.
-    
+
     Successfully installed pillow
     Cleaning up...
     ```
-    
+
 6. Update `requirements.txt` file <br>
     ```bash
     sudo pip3 freeze --local > requirements.txt
@@ -1280,8 +1280,8 @@ This section is for setting up an **products** to allow users ability to select 
     output from bash terminal
     ```bash
     bennettpe:~/workspace (master) $ sudo pip3 freeze --local > requirements.txt
-    ``` 
-    
+    ```
+
 7. Run the following command to makemigrations.
     ```python
     python3 manage.py makemigrations products
@@ -1299,7 +1299,7 @@ This section is for setting up an **products** to allow users ability to select 
     ```python
     python3 manage.py migrate products
     ```
-    
+
     output from bash terminal
     ```bash
     bennettpe:~/workspace (master) $ python3 manage.py migrate products
@@ -1308,8 +1308,8 @@ This section is for setting up an **products** to allow users ability to select 
     Running migrations:
     Applying products.0001_initial... OK
     ```
-    
-#### Create Produts view and urls 
+
+#### Create Produts view and urls
 1. Create a view function called **products** in **fullstack-frameworks-django-project/products/views.py**
    ```python
    from django.shortcuts import render
@@ -1324,60 +1324,60 @@ This section is for setting up an **products** to allow users ability to select 
 
     #ENGINE
     def engine(request):
-    return render(request, 'engine.html', 
+    return render(request, 'engine.html',
     {'products_list': Product.objects.filter(category='engine')})
     #CLUTCH
     def clutch(request):
-    return render(request, 'clutch.html', 
+    return render(request, 'clutch.html',
     {'products_list': Product.objects.filter(category='clutch')})
     #GEARBOX
     def gearbox(request):
-    return render(request, 'gearbox.html', 
+    return render(request, 'gearbox.html',
     {'products_list': Product.objects.filter(category='gearbox')})
     #COOLING SYSTEM
     def cooling(request):
-    return render(request, 'cooling.html', 
+    return render(request, 'cooling.html',
     {'products_list': Product.objects.filter(category='cooling')})
     #FUEL SYSTEM
     def fuel(request):
-    return render(request, 'fuel.html', 
-    {'products_list': Product.objects.filter(category='fuel')})   
+    return render(request, 'fuel.html',
+    {'products_list': Product.objects.filter(category='fuel')})
     #STEERING
     def steering(request):
-    return render(request, 'steering.html', 
-    {'products_list': Product.objects.filter(category='steering')})     
+    return render(request, 'steering.html',
+    {'products_list': Product.objects.filter(category='steering')})
     #FRONT SUSPENSION
     def suspfront(request):
-    return render(request, 'suspfront.html', 
-    {'products_list': Product.objects.filter(category='suspfront')})   
+    return render(request, 'suspfront.html',
+    {'products_list': Product.objects.filter(category='suspfront')})
     #REAR SUSPENSION
     def susprear(request):
-    return render(request, 'susprear.html', 
-    {'products_list': Product.objects.filter(category='susprear')})  
+    return render(request, 'susprear.html',
+    {'products_list': Product.objects.filter(category='susprear')})
     #BRAKE SYSTEM
     def brake(request):
-    return render(request, 'brake.html', 
-    {'products_list': Product.objects.filter(category='brake')})  
+    return render(request, 'brake.html',
+    {'products_list': Product.objects.filter(category='brake')})
     #EXHAUST SYSTEM
     def exhaust(request):
-    return render(request, 'exhaust.html', 
-    {'products_list': Product.objects.filter(category='exhaust')}) 
+    return render(request, 'exhaust.html',
+    {'products_list': Product.objects.filter(category='exhaust')})
     #ELECTRICS
     def electrics(request):
-    return render(request, 'electrics.html', 
-    {'products_list': Product.objects.filter(category='electrics')})      
+    return render(request, 'electrics.html',
+    {'products_list': Product.objects.filter(category='electrics')})
     #INTERIOR
     def interior(request):
-    return render(request, 'interior.html', 
-    {'products_list': Product.objects.filter(category='interior')})     
+    return render(request, 'interior.html',
+    {'products_list': Product.objects.filter(category='interior')})
     #EXTERIOR
     def exterior(request):
-    return render(request, 'exterior.html', 
-    {'products_list': Product.objects.filter(category='exterior')}) 
+    return render(request, 'exterior.html',
+    {'products_list': Product.objects.filter(category='exterior')})
     #BODY & CHASSIS
     def body(request):
-    return render(request, 'body.html', 
-    {'products_list': Product.objects.filter(category='body')})    
+    return render(request, 'body.html',
+    {'products_list': Product.objects.filter(category='body')})
     ```
 
 2. Create urls **urls.py** in **fullstack-frameworks-django-project/products**
@@ -1400,7 +1400,7 @@ This section is for setting up an **products** to allow users ability to select 
     url(r'^susprear/$', susprear, name='susprear'),
     url(r'^brake/$', brake, name='brake'),
     url(r'^exhaust/$', exhaust, name='exhaust'),
-    url(r'^electrics/$', electrics, name='electrics'), 
+    url(r'^electrics/$', electrics, name='electrics'),
     url(r'^interior/$', interior, name='interior'),
     url(r'^exterior/$', exterior, name='exterior'),
     url(r'^body/$', body, name='body')
@@ -1452,22 +1452,22 @@ This section is for setting up an **products** to allow users ability to select 
      MEDIA_ROOT= os.path.join(BASE_DIR, 'media')
      MEDIA_URL = '/media/'
      ```
-     
+
 6. Update **urls.py** in **fullstack-frameworks-django-project\triumphant_triumphs**
      add the following line
-     ```python   
+     ```python
      from django.views import static
      from .settings import MEDIA_ROOT
      url(r'^media/(?P<path>.*)$', static.serve,{'document_root': MEDIA_ROOT}),
      ```
 
 7. Create Media folder in **fullstack-frameworks-django-project** <br>
-   Create Images folder in **fullstack-frameworks-django-project** 
-   
+   Create Images folder in **fullstack-frameworks-django-project**
+
 ### Creating Rating for products (Clone C9 Workspace)
-1. Need to add `Rating for products` so my mentor has said I need to `Extend User Model` in django 
+1. Need to add `Rating for products` so my mentor has said I need to `Extend User Model` in django
 2. Have been advised to create another development enviroment before doint the required changes as would be easier then trying to backout changes.
-3. Need to workout how I take a clone of my enviroment ? , you can clone c9 workspace by clicking on the workspace in your dashboard and then click the `cloned` button 
+3. Need to workout how I take a clone of my enviroment ? , you can clone c9 workspace by clicking on the workspace in your dashboard and then click the `cloned` button
    Remember to delete `.git` folder
 4. Then create a new github repository and commit changes.
 5. Remove S3 links to `static` files, by changing `settings.py` file
@@ -1479,10 +1479,10 @@ This section is for setting up an **products** to allow users ability to select 
 
 #### Creating Rating for products (part1)
 1. need to create two new models one for `UserProfile` and one for `UserRatings`
-   Relationship will be as follows 
-   Each User Profile can have many ratings , But each rating can only be associated with one User Profile and one Product item so to prevent a user from having 
+   Relationship will be as follows
+   Each User Profile can have many ratings , But each rating can only be associated with one User Profile and one Product item so to prevent a user from having
    two ratings for the same product item.
-   
+
 2. `python3 manage.py makemigrations accounts`
     ouput from bash terminal
     ```bash
@@ -1492,7 +1492,7 @@ This section is for setting up an **products** to allow users ability to select 
     accounts/migrations/0001_initial.py
     - Create model UserProfile
     ```
-    
+
 3. `python3 manage.py migrate accounts`
      ouput from bash terminal
     ```bash
@@ -1503,7 +1503,7 @@ This section is for setting up an **products** to allow users ability to select 
     Running migrations:
      Applying accounts.0001_initial... OK
     ```
-    
+
 4. `python3 manage.py makemigrations products`
     ouput from bash terminal
     ```bash
@@ -1520,7 +1520,7 @@ This section is for setting up an **products** to allow users ability to select 
     - Add field user_ratings to product
     - Alter unique_together for userrating (1 constraint(s))
     ```
-    
+
 5. `python3 manage.py migrate products`
      ouput from bash terminal
     ```bash
@@ -1535,19 +1535,19 @@ This section is for setting up an **products** to allow users ability to select 
 #### Error User has no userprofile.
 1.  Tried logging into `admin` but got the following error message `User has no userprofile.` , problem is due to not having an user profile for existing users
     so need to create manual for `admin` and then can login and fix other existing users thru the admin panel.
-    
+
 2.  This coild be done via the python shell as follows <br>
     But anyway, to make the initial profile, just use `python manage.py shell` <br>
     And do `from django.contrib.auth.models import User, from accounts.models import UserProfile,` <br>
     and then grab the admin user using `User.objects.get()` <br>
     and make a profile using it using `UserProfile.objects.create()` <br>
-    You need to import the default user model, use it to get the admin user by their username and store that user in a variable, 
+    You need to import the default user model, use it to get the admin user by their username and store that user in a variable,
     then use the variable to create the profile <br>
     Once you do that you can log in with the admin user and use it to create profiles for the rest of the accounts.
-    
+
 3.  Another obvious option would be to just make another `superuser` and let your receiver create its profile  <br> Then you can login to the `admin`
     with it and create the other profiles <br> Then just delete the temporary superuser when you're done
-    
+
 4.  Created superuser
      ouput from bash terminal
     ```bash
@@ -1555,60 +1555,60 @@ This section is for setting up an **products** to allow users ability to select 
     Database URL not found. Using SQLite instead
     Username (leave blank to use 'ubuntu'): admintemp
     Email address: admintep@example.com
-    Password: 
-    Password (again): 
+    Password:
+    Password (again):
     Superuser created successfully.
     ```
 5.  Logging in using `admintemp` and added userprofile to existing users and the deleted `admintemp` userid.
 
 ### Creating Rating for products (part2)
 1. Changes where made to the following files <br>
-    
-    in **accounts app**   
-    `admin.py`   
+
+    in **accounts app**
+    `admin.py`
     `model.py` <br>
-    
-    in **products app**   
-    `admin.py`   
-    `model.py`   
-    `parts_cards.html`   
-    `templatetags` (new folder)   
-    `url.py`   
+
+    in **products app**
+    `admin.py`
+    `model.py`
+    `parts_cards.html`
+    `templatetags` (new folder)
+    `url.py`
     `views.py` <br>
-    
-    in **static**   
+
+    in **static**
     `styles.css` <br>
-    
-    in **static\js**   
+
+    in **static\js**
     `ratings.js` (new) <br>
-    
+
     Three things to test to make sure it's working as expected: <br>
     1) Can the same profile create ratings for two different products (should be yes) (DONE) <br>
     2) Can you create multiple ratings on the same product using different user profiles (should be yes) (DONE) <br>
     3) Can the same profile create two identical or different ratings on the same product (should be no) (DONE)
 
 #### Creating Disked/Liked on Parts_cards.html
-1. I was looking for a solution to add the number of Disliked/Liked on the parts cards , <br> my mentor helped me with finding a solution. 
+1. I was looking for a solution to add the number of Disliked/Liked on the parts cards , <br> my mentor helped me with finding a solution.
    A template tag was created as follows, <br>
-   
+
    Created a `templatetags` folder in the **products app** called **templatetags** <br> with a `product_tools.py` and an `__init__.py` to register it as a directory to look for stuff in. <br>
-   Then in `product_tools.py` there are two functions, called template tags (like `{% load static %}`) they take in a product id 
+   Then in `product_tools.py` there are two functions, called template tags (like `{% load static %}`) they take in a product id
    (the ID auto-generated by django when you create a product ... you could use part_number too but a primary key is always better cause it's unique). <br>
-   Each function grabs the product from the database by its **id**, then searches user ratings for ratings on that product with the relevant status 
+   Each function grabs the product from the database by its **id**, then searches user ratings for ratings on that product with the relevant status
    **(liked/disliked)** and returns the length of the queryset. <br>
    To use it in the template you add `{% get_liked product.id %}` or `{% get_disliked product.id %}` after loading them with `{% load product_tools %}`
-   
+
    ```
    fullstack-frameworks-django-project
     └── products
-            └── templatetags  
-                     ├── __init__.py        # Python file to allow app packages 
-                     |                        to be imported from other directories. 
+            └── templatetags
+                     ├── __init__.py        # Python file to allow app packages
+                     |                        to be imported from other directories.
                      └── product_tools.py   # File with template tag functions.
-    ``` 
-    
+    ```
+
     product_tools.py
-    
+
     ```python
     from django import template
     from products.models import Product, UserRating
@@ -1627,7 +1627,7 @@ This section is for setting up an **products** to allow users ability to select 
 	   liked = UserRating.objects.filter(product=product, rating='liked')
 	   return str(len(liked))
 
-    # DISLIKED TAGS	
+    # DISLIKED TAGS
     @register.simple_tag
     def get_disliked(prod_id):
 	   try:
@@ -1637,14 +1637,14 @@ This section is for setting up an **products** to allow users ability to select 
 	   disliked = UserRating.objects.filter(product=product, rating='liked')
 	   return str(len(disliked))
     ```
-    
+
     parts_card.html
     ```html
     {% load product_tools %}
 
     <button data-part-number={{ product.part_number }} data-token="{{ csrf_token }}"
     class="disliked-button btn btn-outline-danger" data-toggle="tooltip" title="Vote disliked">
-        <!-- Diskliked votes ---> 
+        <!-- Diskliked votes --->
         <span>
             {% get_disliked product.id %}
         </span>
@@ -1660,39 +1660,39 @@ This section is for setting up an **products** to allow users ability to select 
 Step 05 - CHECKOUT App
 </summary>
 <p>
-    
+
 ## Checkout App - using Stripe
 
 This section is for setting up an **customer payment mechanism** to allow users ability to pay.
 
-1. **Create** Django app called **cart** 
+1. **Create** Django app called **cart**
     ```python
     python3 manage.py startapp cart
     ```
- 
+
      ouput from bash terminal
     ```bash
-    bennettpe:~/workspace (master) $ python3 manage.py startapp cart 
+    bennettpe:~/workspace (master) $ python3 manage.py startapp cart
     ```
-    
+
     The following django files have been **created**
     ```
     fullstack-frameworks-django-project
     │
     └── cart
         ├── migrations
-        │   └── __init__.py # Python file to allow app packages to be imported from other directories.  
+        │   └── __init__.py # Python file to allow app packages to be imported from other directories.
         │
-        ├── __init__.py     # Python file to allow app packages to be imported from other directories. 
-        ├── admin.py        # File with admin definitions for the app. 
+        ├── __init__.py     # Python file to allow app packages to be imported from other directories.
+        ├── admin.py        # File with admin definitions for the app.
         ├── apps.py         # File with configuration parameters for the app.
         ├── models.py       # File with database definitions (i.e., model classes) for the app.
         ├── tests.py        # File with test definitions for the app.
         └── views.py        # File with view definitions (i.e., controller methods) for the app.
     ```
 
-2. In **setting.py** 
-   go to **INSTALLED_APPS** section and add line containing **cart** 
+2. In **setting.py**
+   go to **INSTALLED_APPS** section and add line containing **cart**
    ```python
    # Application definition
 
@@ -1703,8 +1703,8 @@ This section is for setting up an **customer payment mechanism** to allow users 
 
 3. Create file **contexts.py** in <i>fullstack-frameworks-django-project/checkout/cart</i>
 
-4. In **setting.py** 
-   go to **TEMPLATES** section and add line containing **'cart.contexts.cart_contents',** 
+4. In **setting.py**
+   go to **TEMPLATES** section and add line containing **'cart.contexts.cart_contents',**
    ```python
 
    TEMPLATES = [
@@ -1716,7 +1716,7 @@ This section is for setting up an **customer payment mechanism** to allow users 
     ]
    ```
 
-5. Create **urls.py** in <i>fullstack-frameworks-django-project/cart</i>  
+5. Create **urls.py** in <i>fullstack-frameworks-django-project/cart</i>
     ```python
     from django.conf.urls import url
     from .views import view_cart, add_to_cart, adjust_cart, remove_from_cart
@@ -1730,7 +1730,7 @@ This section is for setting up an **customer payment mechanism** to allow users 
     ]
     ```
 
-6. Update **views.py** in <i>fullstack-frameworks-django-project/cart</i>  
+6. Update **views.py** in <i>fullstack-frameworks-django-project/cart</i>
 
 7. Update file **urls.py** in <i>fullstack-frameworks-django-project\triumphant_triumphs</i> <br>
    Add cart urls
@@ -1743,7 +1743,7 @@ This section is for setting up an **customer payment mechanism** to allow users 
     ```python
     python3 manage.py makemigrations cart
     ```
-    
+
     output from bash terminal
     ```bash
     bennettpe:~/workspace (master) $ python3 manage.py makemigrations cart
@@ -1754,7 +1754,7 @@ This section is for setting up an **customer payment mechanism** to allow users 
     ```python
     python3 manage.py migrate cart
     ```
-    
+
     output from bash terminal
     ```bash
     bennettpe:~/workspace (master) $ python3 manage.py migrate cart
@@ -1764,12 +1764,12 @@ This section is for setting up an **customer payment mechanism** to allow users 
     No migrations to apply.
     ```
 
-10. Create folder **templates** in <i>fullstack-frameworks-django-project/cart/</i> 
-11. Create file **cart.html** in <i>fullstack-frameworks-django-project/cart/template</i> 
+10. Create folder **templates** in <i>fullstack-frameworks-django-project/cart/</i>
+11. Create file **cart.html** in <i>fullstack-frameworks-django-project/cart/template</i>
 
 #### Create Checkout Models
-1. In **models.py** in <i>fullstack-frameworks-django-project/checkout</i>     
-    Add   
+1. In **models.py** in <i>fullstack-frameworks-django-project/checkout</i>
+    Add
     ```python
     from django.db import models
     from products.models import Product
@@ -1799,7 +1799,7 @@ This section is for setting up an **customer payment mechanism** to allow users 
     ```
 
 2. Add Models to Admin
-   In **admin.py** in <i>fullstack-frameworks-django-project/checkout</i> 
+   In **admin.py** in <i>fullstack-frameworks-django-project/checkout</i>
    Add
    ```python
    from django.contrib import admin
@@ -1847,9 +1847,9 @@ This section is for setting up an **customer payment mechanism** to allow users 
     Running migrations:
     Applying checkout.0001_initial... OK
     ```
-    
+
 #### Create Checkout Forms
-1. Create **forms.py** in <i>fullstack-frameworks-django-project/checkout</i>    
+1. Create **forms.py** in <i>fullstack-frameworks-django-project/checkout</i>
     ```python
    from django import forms
    from .models import Order
@@ -1873,13 +1873,13 @@ This section is for setting up an **customer payment mechanism** to allow users 
             'full_name', 'phone_number', 'country', 'postcode',
             'town_or_city', 'street_address1', 'street_address2',
             'county'
-        ) 
+        )
     ```
 #### Create Checkout Forms
-1. Create **Views.py** in <i>fullstack-frameworks-django-project/checkout</i> 
+1. Create **Views.py** in <i>fullstack-frameworks-django-project/checkout</i>
 
 #### Create Checkout html
-1. Create **urls.py** in <i>fullstack-frameworks-django-project/checkout</i>  
+1. Create **urls.py** in <i>fullstack-frameworks-django-project/checkout</i>
     ```python
     from django.conf.urls import url
     from .views import checkout
@@ -1888,7 +1888,7 @@ This section is for setting up an **customer payment mechanism** to allow users 
     url(r'^$', checkout, name='checkout'),
     ]
     ```
-    
+
 2. Update file **urls.py** in <i>fullstack-frameworks-django-project\triumphant_triumphs</i> <br>
    Add checkout urls
    ```python
@@ -1896,7 +1896,7 @@ This section is for setting up an **customer payment mechanism** to allow users 
     url(r'^checkout/', include(checkout_urls)), <== Add this line
    ```
 
-3. Create **checkout.html** in <i>fullstack-frameworks-django-project/checkout/templates</i> 
+3. Create **checkout.html** in <i>fullstack-frameworks-django-project/checkout/templates</i>
 
 4. Update file **base.html** in <i>fullstack-frameworks-django-project/checkout/templates</i> <br>
    to include stripe js in head section
@@ -1908,8 +1908,8 @@ This section is for setting up an **customer payment mechanism** to allow users 
 
 #### Create javascript for Stripe
 1. Create folder **js** in <i>fullstack-frameworks-django-project/checkout/static</i> <br>
-2. Create file **stripe.js** in <i>fullstack-frameworks-django-project/checkout/static/js</i> 
-3. Test Stripe using Test Credit Card details as follows 
+2. Create file **stripe.js** in <i>fullstack-frameworks-django-project/checkout/static/js</i>
+3. Test Stripe using Test Credit Card details as follows
     ```
     Name:   Test Customer
     Credit card number: 4242424242424242
@@ -1924,36 +1924,36 @@ This section is for setting up an **customer payment mechanism** to allow users 
 Step 06 - CONTACT App
 </summary>
 <p>
-    
+
 #### Create CONTACT app
-1. **Create** Django app called **contact** 
+1. **Create** Django app called **contact**
     ```python
     python3 manage.py startapp contact
     ```
- 
+
      ouput from bash terminal
     ```bash
-    bennettpe:~/workspace (master) $ python3 manage.py startapp contact 
+    bennettpe:~/workspace (master) $ python3 manage.py startapp contact
     ```
-    
+
     The following django files have been **created**
     ```
     fullstack-frameworks-django-project
     │
     └── contact
         ├── migrations
-        │   └── __init__.py # Python file to allow app packages to be imported from other directories.  
+        │   └── __init__.py # Python file to allow app packages to be imported from other directories.
         │
-        ├── __init__.py     # Python file to allow app packages to be imported from other directories. 
-        ├── admin.py        # File with admin definitions for the app. 
+        ├── __init__.py     # Python file to allow app packages to be imported from other directories.
+        ├── admin.py        # File with admin definitions for the app.
         ├── apps.py         # File with configuration parameters for the app.
         ├── models.py       # File with database definitions (i.e., model classes) for the app.
         ├── tests.py        # File with test definitions for the app.
         └── views.py        # File with view definitions (i.e., controller methods) for the app.
     ```
 
-2. In **setting.py** 
-   go to **INSTALLED_APPS** section and add line containing **contact** 
+2. In **setting.py**
+   go to **INSTALLED_APPS** section and add line containing **contact**
    ```python
    # Application definition
 
@@ -1963,16 +1963,16 @@ Step 06 - CONTACT App
    ```
 3. Install django-phonenumber-field
     Have to install pillow 5.4.1 as clould9 uses python3.4
-    
+
     ```python
     sudo pip3 install django-phonenumber-field
     ```
-    
-    This installs **phonenumberfield** 
+
+    This installs **phonenumberfield**
 
     ouput from bash terminal
     ```bash
-    bennettpe:~/workspace (master) $ sudo pip3 install django-phonenumber-field                                                                                                              
+    bennettpe:~/workspace (master) $ sudo pip3 install django-phonenumber-field
     Downloading/unpacking django-phonenumber-field
     Downloading django_phonenumber_field-2.3.1-py2.py3-none-any.whl (45kB): 45kB downloaded
     Downloading/unpacking babel (from django-phonenumber-field)
@@ -1983,7 +1983,7 @@ Step 06 - CONTACT App
     Successfully installed django-phonenumber-field babel
     Cleaning up...
     ```
-    
+
 4. Update `requirements.txt` file <br>
     ```bash
     sudo pip3 freeze --local > requirements.txt
@@ -1992,73 +1992,73 @@ Step 06 - CONTACT App
     output from bash terminal
     ```bash
     bennettpe:~/workspace (master) $ sudo pip3 freeze --local > requirements.txt
-    ```    
+    ```
 
-5. In **setting.py** 
-   go to **INSTALLED_APPS** section and add line containing **phonenumber_field** 
+5. In **setting.py**
+   go to **INSTALLED_APPS** section and add line containing **phonenumber_field**
    ```python
    # Application definition
 
    INSTALLED_APPS = [
     'phonenumber_field',     <== this line added.
     ]
-   ```   
+   ```
 
-   Also add the following lines 
+   Also add the following lines
    ```python
    # PhoneNumberField Django library; allowing the use of GB numbers for contact app
      PHONENUMBER_DB_FORMAT = 'NATIONAL'
      PHONENUMBER_DEFAULT_REGION = 'GB'
    ```
-   
-6. Create **forms.py** in **fullstack-frameworks-django-project/contact** 
-7. Add to **views.py** in **fullstack-frameworks-django-project/contact** 
-8. Create **templates** in **fullstack-frameworks-django-project/contact** 
-9. Update root **urls.py** in 
-10. Create templates folder in **fullstack-frameworks-django-project/contact** 
+
+6. Create **forms.py** in **fullstack-frameworks-django-project/contact**
+7. Add to **views.py** in **fullstack-frameworks-django-project/contact**
+8. Create **templates** in **fullstack-frameworks-django-project/contact**
+9. Update root **urls.py** in
+10. Create templates folder in **fullstack-frameworks-django-project/contact**
 11. Create **contact.html** in templates folder
-12. Create **urls.py** **fullstack-frameworks-django-project/contact** 
+12. Create **urls.py** **fullstack-frameworks-django-project/contact**
 </details>
- 
+
 <details>
 <summary>
 Step 07 - ABOUT App
 </summary>
 <p>
-    
+
 #### Create ABOUT App
-1. **Create** Django app called **about** 
+1. **Create** Django app called **about**
     ```python
     python3 manage.py startapp about
     ```
- 
+
      ouput from bash terminal
     ```bash
-    bennettpe:~/workspace (master) $ python3 manage.py startapp about 
+    bennettpe:~/workspace (master) $ python3 manage.py startapp about
     ```
-    
+
     The following django files have been **created**
     ```
     fullstack-frameworks-django-project
     │
     └── about
         ├── migrations
-        │   └── __init__.py # Python file to allow app packages to be imported from other directories.  
+        │   └── __init__.py # Python file to allow app packages to be imported from other directories.
         │
-        ├── __init__.py     # Python file to allow app packages to be imported from other directories. 
-        ├── admin.py        # File with admin definitions for the app. 
+        ├── __init__.py     # Python file to allow app packages to be imported from other directories.
+        ├── admin.py        # File with admin definitions for the app.
         ├── apps.py         # File with configuration parameters for the app.
         ├── models.py       # File with database definitions (i.e., model classes) for the app.
         ├── tests.py        # File with test definitions for the app.
         └── views.py        # File with view definitions (i.e., controller methods) for the app.
     ```
 
-5. Add to **views.py** in **fullstack-frameworks-django-project/about** 
-6. Create **templates** in **fullstack-frameworks-django-project/about** 
-7. Update root **urls.py** in 
-8. Create templates folder in **fullstack-frameworks-django-project/about** 
+5. Add to **views.py** in **fullstack-frameworks-django-project/about**
+6. Create **templates** in **fullstack-frameworks-django-project/about**
+7. Update root **urls.py** in
+8. Create templates folder in **fullstack-frameworks-django-project/about**
 8. Create **about.html** in templates folder
-9. Create **urls.py** **fullstack-frameworks-django-project/about** 
+9. Create **urls.py** **fullstack-frameworks-django-project/about**
 </details>
 
 <details>
@@ -2066,25 +2066,25 @@ Step 07 - ABOUT App
 Step 08 - New S3 Bucket
 </summary>
 <p>
-    
-[Create New S3 Bucket](static/wireframe/Create_New_S3_Bucket.pdf)   
-How to create S3 Bucket in AWS.   
-</details>  
 
-<details>  
+[Create New S3 Bucket](static/wireframe/Create_New_S3_Bucket.pdf)
+How to create S3 Bucket in AWS.
+</details>
+
+<details>
 <summary>
 Step 09 - Adding S3 to Django
 </summary>
 <p>
-    
+
 #### Adding S3 to django
 1. Install django-storages
-    
+
     ```python
     sudo pip3 install django-storages
     ```
-    
-    This installs **django-storages** 
+
+    This installs **django-storages**
 
     ouput from bash terminal
     ```bash
@@ -2096,7 +2096,7 @@ Step 09 - Adding S3 to Django
     Successfully installed django-storages
     Cleaning up...
     ```
-    
+
 2. Update `requirements.txt` file <br>
     ```bash
     sudo pip3 freeze --local > requirements.txt
@@ -2107,11 +2107,11 @@ Step 09 - Adding S3 to Django
      ```python
     sudo pip3 install boto3
     ```
-    
-    This installs **boto3** 
+
+    This installs **boto3**
 
     ouput from bash terminal
-    
+
     ```bash
     bennettpe:~/workspace (master) $ sudo pip3 install boto3
     Downloading/unpacking boto3
@@ -2132,14 +2132,14 @@ Step 09 - Adding S3 to Django
     Successfully installed boto3 botocore jmespath s3transfer python-dateutil docutils
     Cleaning up...
     ```
-    
+
 4. Update `requirements.txt` file <br>
     ```bash
     sudo pip3 freeze --local > requirements.txt
-    ``` 
+    ```
 
-5. In **setting.py** 
-   go to **INSTALLED_APPS** section and add line containing **storages** 
+5. In **setting.py**
+   go to **INSTALLED_APPS** section and add line containing **storages**
    ```python
    # Application definition
 
@@ -2148,7 +2148,7 @@ Step 09 - Adding S3 to Django
     ]
    ```
 6. Make changes to `settings.py` to connect to AWS
-   go to **Static files**  and add the following lines  
+   go to **Static files**  and add the following lines
     ```python
     AWS_S3_OBJECT_PARAMETERS = {
     'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
@@ -2170,7 +2170,7 @@ Step 09 - Adding S3 to Django
     This uploads the static files
 
     ouput from bash terminal
-    
+
     ```bash
     bennettpe:~/workspace (master) $ python3 manage.py collectstatic
     Database URL not found. Using SQLite instead
@@ -2204,10 +2204,10 @@ Step 09 - Adding S3 to Django
     ```
 8. When I did a run to check everything was working get the following UserWarning message
     ```python
-    /usr/local/lib/python3.4/dist-packages/storages/backends/s3boto3.py:282: UserWarning: 
-    The default behavior of S3Boto3Storage is insecure and will change in django-storages 2.0. 
-    By default files and new buckets are saved with an ACL of 'public-read' (globally publicly readable). 
-    Version 2.0 will default to using the bucket's ACL. 
+    /usr/local/lib/python3.4/dist-packages/storages/backends/s3boto3.py:282: UserWarning:
+    The default behavior of S3Boto3Storage is insecure and will change in django-storages 2.0.
+    By default files and new buckets are saved with an ACL of 'public-read' (globally publicly readable).
+    Version 2.0 will default to using the bucket's ACL.
     To opt into the new behavior set AWS_DEFAULT_ACL = None, otherwise to silence this warning explicitly set AWS_DEFAULT_ACL.
     "The default behavior of S3Boto3Storage is insecure and will change "
     ```
@@ -2223,20 +2223,20 @@ Step 09 - Adding S3 to Django
     class StaticStorage(S3Boto3Storage):
     location = settings.STATICFILES_LOCATION
     ```
-    
+
     At the moment, our static files are on S3. However, if we added media, we would be adding products to the same directory. <br>
     And we would be at risk of overwriting one of our static files, which would not ideal.
     So this is a technique of separating folders, So having **static** in one directory in S3 and **media** in another. <br>
     So within this `custom_storages.py` file, we import settings. And from Boto, we import Boto storages.
     We create a class called **StaticStorage** in **settings.py**.
-    
+
 3. Add the following to **settings.py**
     ```python
-    STATICFILES_LOCATION = 'static' 
+    STATICFILES_LOCATION = 'static'
     STATIC_URL = '/static/'                                                      for when in development
     STATIC_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, STATICFILES_LOCATION) for when in production
     ```
-    
+
 4. Change the following in **settings.py**
     ```python
     STATICFILES_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
@@ -2245,7 +2245,7 @@ Step 09 - Adding S3 to Django
     ```python
     STATICFILES_STORAGE = "custom_storages.StaticStorage"
     ```
-    
+
 5. We have changed our STATICFILES_STORAGE to **custom_storages.StaticStorage**, which is a new class we've created in our **custom_storages.py** file
 
 6. So now if we run `python3 manage.py collectstatic`, we will see that it will collect all the static again.
@@ -2262,9 +2262,9 @@ Step 09 - Adding S3 to Django
 
     Type 'yes' to continue, or 'no' to cancel: yes
         Copying '/home/ubuntu/workspace/static/js/stripe.js'
-        Copying '/home/ubuntu/workspace/static/js/custom.js' 
+        Copying '/home/ubuntu/workspace/static/js/custom.js'
    ```
-   
+
 7. So now we can add our **media** files
 
 8. Add the follow to the **custom_storage.py file
@@ -2272,53 +2272,53 @@ Step 09 - Adding S3 to Django
     class MediaStorage(S3Boto3Storage):
     location = settings.MEDIAFILES_LOCATION
     ```
-    
+
 9. Add the following to the **settings.py** file
     ```python
     MEDIAFILES_LOCATION = 'media'
     MEDIA_URL = '/media/'                                                      for when in development
     MEDIA_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, MEDIAFILES_LOCATION) for when in production
     ```
-    
+
 10. In S3 create **Media** folder
 11. Manually upload media files to S3
 </details>
 
-<details>  
+<details>
 <summary>
 Step 10 - Adding CHARTS App
 </summary>
 <p>
-   
+
 #### Create charts app
-1. **Create** Django app called **charts** 
+1. **Create** Django app called **charts**
     ```python
     python3 manage.py startapp charts
     ```
- 
+
      ouput from bash terminal
     ```bash
     bennettpe:~/workspace (master) $ python3 manage.py startapp chart
     ```
-    
+
     The following django files have been **created**
     ```
     fullstack-frameworks-django-project
     │
     └── chart
         ├── migrations
-        │   └── __init__.py # Python file to allow app packages to be imported from other directories.  
+        │   └── __init__.py # Python file to allow app packages to be imported from other directories.
         │
-        ├── __init__.py     # Python file to allow app packages to be imported from other directories. 
-        ├── admin.py        # File with admin definitions for the app. 
+        ├── __init__.py     # Python file to allow app packages to be imported from other directories.
+        ├── admin.py        # File with admin definitions for the app.
         ├── apps.py         # File with configuration parameters for the app.
         ├── models.py       # File with database definitions (i.e., model classes) for the app.
         ├── tests.py        # File with test definitions for the app.
         └── views.py        # File with view definitions (i.e., controller methods) for the app.
     ```
 
-2. In **setting.py** 
-   go to **INSTALLED_APPS** section and add line containing **charts** 
+2. In **setting.py**
+   go to **INSTALLED_APPS** section and add line containing **charts**
    ```python
    # Application definition
 
@@ -2326,14 +2326,14 @@ Step 10 - Adding CHARTS App
     'charts',             <== this line added.
     ]
    ```
-4. Add chart.js cdnjs 
+4. Add chart.js cdnjs
    <!-- Chart.js minified JavaScript minified file (v2.8.0) --> <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"> </script>
    <!-- CHARTS.JS minified CSS file (v2.8.0)                --> <link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css">
 5.
 6.
-7. Update root **urls.py** in 
-8. 
-9. Create **urls.py** **fullstack-frameworks-django-project/charts** 
+7. Update root **urls.py** in
+8.
+9. Create **urls.py** **fullstack-frameworks-django-project/charts**
 
 
 #### TypeError: datetime.datetime(...) is not JSON serializable
@@ -2341,14 +2341,14 @@ Step 10 - Adding CHARTS App
 2. used the following https://reviews.reviewboard.org/r/5038/diff/2/ and adapted code.
     ```python
     from django.core.serializers.json import DjangoJSONEncoder
-    
+
     class LazyEncoder(DjangoJSONEncoder):
     def default(self, obj):
         return super(LazyEncoder, self).default(obj)
-        
-    dump3 = json.dumps(chart3, cls=LazyEncoder)   
+
+    dump3 = json.dumps(chart3, cls=LazyEncoder)
     ```
-    
+
 </details>
 
 <details>
@@ -2356,7 +2356,7 @@ Step 10 - Adding CHARTS App
 Step 11 - Cloud9 Templates
 </summary>
 <p>
-   
+
 ### Cloud9 Templates
 
 The following is a list of templates in the Cloud9 environment.
@@ -2374,10 +2374,10 @@ The **Breadcrumb nav link** is the main category and the other pages that are ac
 | contact                          | contact.html                       | Contact page                       |
 | cart                             | cart.html                          | Cart page                          |
 | products                         | alt_dyno.html                      | Alternator, Dynamo & Starter page  | electrical.html
-| products                         | body.html                          | Bodyshell & Bonnet page            |  
+| products                         | body.html                          | Bodyshell & Bonnet page            |
 | products                         | boot.html                          | Boot page                          | external.html
 | products                         | brakes.html                        | Brakes page                        |
-| products                         | brakes_fr.html                     | Brakes Front & Rear page           | brakes.html 
+| products                         | brakes_fr.html                     | Brakes Front & Rear page           | brakes.html
 | products                         | brakes_handbrake.html              | Hanbrake page                      | brakes.html
 | products                         | bumpers.html                       | Bumpers page                       | external.html
 | products                         | categories.html                    | Products cards page                |
@@ -2388,7 +2388,7 @@ The **Breadcrumb nav link** is the main category and the other pages that are ac
 | products                         | dashboard.html                     | Dashboard page                     | interior.html
 | products                         | door.html                          | Door page                          | exterior.html
 | products                         | drive_line.html                    | Drive Line page                    | steering.html
-| products                         | electrical.html                    | Battery page                       | 
+| products                         | electrical.html                    | Battery page                       |
 | products                         | engine.html                        | Cylinder block & head page         |
 | products                         | exhaust.html                       | Exhaust page                       | exhaust.html
 | products                         | external.html                      | External page                      |
@@ -2442,22 +2442,22 @@ Step 12 - Testing
 <p>
 
 ### Testing
-The project guidelines stated **test your project extensively**, All of my testing / bug fixes was done from a manual testing approach using print() method ,Building some test* python code when I wanted to create a new piece of logic / functionality or had a issue.   
+The project guidelines stated **test your project extensively**, All of my testing / bug fixes was done from a manual testing approach using print() method ,Building some test* python code when I wanted to create a new piece of logic / functionality or had a issue.
 
 ### Manual Testing
 
-**Register**    
+**Register**
 I tested to make sure the following worked as designed and <span style="color:green">All passed</span>
 
-* Click on **register button** (url goes to `/accounts/register/registration.html`) 
+* Click on **register button** (url goes to `/accounts/register/registration.html`)
 * In the form enter the following <br>
 
-* Enter **Email address**  
-* Enter **duplicate Email address** (Message saying `Email address must be unique`) 
+* Enter **Email address**
+* Enter **duplicate Email address** (Message saying `Email address must be unique`)
 * Enter **invalid Email address** (Message saying `Please include a @ in the email address 'xxx' is missing an @`)
 * Enter **blank Email address** (Message saying `Email address must not be empty`)
 
-* Enter **username** (Field must be 150 characters or fewer. Letters, digits and @/./+/-/_ only.) 
+* Enter **username** (Field must be 150 characters or fewer. Letters, digits and @/./+/-/_ only.)
 * Enter ** duplicate username** (Message saying `A user with that username already exists.`)
 * Enter **invalid username** (Message saying `Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.)`
 * Enyer **blank username** (Message saying `This field is required`)
@@ -2473,33 +2473,33 @@ I tested to make sure the following worked as designed and <span style="color:gr
 * Enter Confirm **invalid password** (Message saying `Passwords do not match`)
 * Enter Confirm **blank password** (Message saying `Passwords do not match`) <br>
 
-* Click on **sign-up button** (url goes to `/index`) 
+* Click on **sign-up button** (url goes to `/index`)
 * Click on `If you already have an account?, Please Log in` (url goes to `/accounts/login/login.html`)
 
 
-**Log-in**    
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span>    
-    
-* Enter **username**   
-* Enter **invalid username** (Does not sign-in) 
+**Log-in**
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span>
 
-* Enter **password**   
-* Enter **invalid password** (Message saying `Your username or password is incorrect`)   
-* Enter **blank password** (Message saying `Your username or password is incorrect`)   
+* Enter **username**
+* Enter **invalid username** (Does not sign-in)
 
-* Click on **login button** (url goes to `/index`) 
-* Click on **Click here if you need to Reset Password** (url goes to `/accounts/password-reset`)    
+* Enter **password**
+* Enter **invalid password** (Message saying `Your username or password is incorrect`)
+* Enter **blank password** (Message saying `Your username or password is incorrect`)
+
+* Click on **login button** (url goes to `/index`)
+* Click on **Click here if you need to Reset Password** (url goes to `/accounts/password-reset`)
 
 
-**Password reset**    
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span>  
+**Password reset**
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span>
 
-* Enter **Email address** 
+* Enter **Email address**
 * Enter **blank email address** (Message saying `Please fill in this field`)
-* Enter **invalid email address** (Message saying `Please include a @ in the email address 'xxx' is missing an @`) <br> 
-  or (Message saying `Please enter a part following @. 'xxx@' is incomplete`)         
+* Enter **invalid email address** (Message saying `Please include a @ in the email address 'xxx' is missing an @`) <br>
+  or (Message saying `Please enter a part following @. 'xxx@' is incomplete`)
 
-* Click on **reset password button** (url goes to `/accounts/password-rest-done`) 
+* Click on **reset password button** (url goes to `/accounts/password-rest-done`)
 
 * Message after clicking **reset password** button <br>
 ```
@@ -2521,17 +2521,17 @@ Your password has been successfully reset. You can now log in.
 * Click on **Log in to Triumphant Triumphs** button (url to `accounts/login`)
 
 
-**Sign-out**   
+**Sign-out**
 I tested to make sure the following worked as designed and <span style="color:green">All passed</span>
 
 * When click on **log out icon** <br> (Message saying `You have successfully been logged out`)
 
 
-**NavBar**    
+**NavBar**
 I tested to make sure the following worked as designed and <span style="color:green">All passed</span>
 
-When `logged in` you see the following icons (About, Parts, Log Out(xxx), Cart, Contact, Charts)   
-* Click on **About** icon (url goes to `/about/`)   
+When `logged in` you see the following icons (About, Parts, Log Out(xxx), Cart, Contact, Charts)
+* Click on **About** icon (url goes to `/about/`)
 * Click on **Parts** icon this give you a dropdown for the following; <br>
   **All Parts** (url to `/products/categories/`) <br>
   **Body Parts & Fittings** (url to `/products/body/`) <br>
@@ -2549,36 +2549,36 @@ When `logged in` you see the following icons (About, Parts, Log Out(xxx), Cart, 
 * Click on **Log Out** icon (url to `/index/`) <br>
 * Click on **Cart** icon (url to `/cart/`) <br>
 * Click on **Contact** icon (url to `/contact/`) <br>
-* Click on **Charts** icon (url to `/charts/`) 
+* Click on **Charts** icon (url to `/charts/`)
 
-When **not logged in** you see the following icons (About, Parts, Register, Log in, Cart, Contact, Charts)   
-* Click on **Register** icon (url to `/accounts/register/)`   
-* Click on **Log In** icon (url to `/accounts/login/)`   
-   
+When **not logged in** you see the following icons (About, Parts, Register, Log in, Cart, Contact, Charts)
+* Click on **Register** icon (url to `/accounts/register/)`
+* Click on **Log In** icon (url to `/accounts/login/)`
+
 
 When clicking on the **Parts** dropdown in the navbar it goes to the following pages
 
-**/body/**    
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>    
-* Click on **Home** icon <br> (url to `/index/`)   
-* Click on **products** breadcrumb <br> (url to `/products/categories/`)   
+**/body/**
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
+* Click on **Home** icon <br> (url to `/index/`)
+* Click on **products** breadcrumb <br> (url to `/products/categories/`)
 * Click on **chassis** breadcrumb <br> (url  to `/products/chassis/`)
 * Click on **inner body** breadcrumb <br> (url to `/products/inner_body/`)
 * Click on **outer body** breadcrumb <br> (url to `/products/outer_body/`)
 
 
-**/brakes/**    
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>    
-* Click on **Home** icon <br> (url to `/index/`)   
-* Click on **products** breadcrumb <br> (url to `/products/categories/`)   
+**/brakes/**
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
+* Click on **Home** icon <br> (url to `/index/`)
+* Click on **products** breadcrumb <br> (url to `/products/categories/`)
 * Click on **front & rear brakes** breadcrumb <br> (url to `/products/brakes_fr/`)
 * Click on **handbrake** breadcrumb <br> (url to `/products/handbrake/`)
 
 
-**/clutch/**    
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>    
-* Click on **Home** icon <br> (url to `/index/`)   
-* Click on **products** breadcrumb <br> (url to `/products/categories/`)   
+**/clutch/**
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
+* Click on **Home** icon <br> (url to `/index/`)
+* Click on **products** breadcrumb <br> (url to `/products/categories/`)
 * Click on **gearbox** breadcrumb <br> (url to `/products/gearbox/`)
 * Click on **gearbox mk4** breadcrumb <br> (url to `/products/gearbox_mk4/`)
 * Click on **gearbox 1500** breadcrumb <br> (url to `/products/gearbox_1500/`)
@@ -2586,16 +2586,16 @@ I tested to make sure the following worked as designed and <span style="color:gr
 * Click on **overdrive_j** breadcrumb <br> (url to `/products/overdrive_j/`)
 
 
-**/cooling/**    
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>    
-* Click on **Home** icon <br> (url to `/index/`)   
-* Click on **products** breadcrumb <br> (url to `/products/categories/`)   
+**/cooling/**
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
+* Click on **Home** icon <br> (url to `/index/`)
+* Click on **products** breadcrumb <br> (url to `/products/categories/`)
 
 
-**/electrical/**    
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>    
-* Click on **Home** icon <br> (url to `/index/`)   
-* Click on **products** breadcrumb <br> (url to `/products/categories/`)   
+**/electrical/**
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
+* Click on **Home** icon <br> (url to `/index/`)
+* Click on **products** breadcrumb <br> (url to `/products/categories/`)
 * Click on **charging & starting** breadcrumb <br> (url to `/products/alt_dyno/`)
 * Click on **ignition** breadcrumb <br> (url to `/products/ignition/`)
 * Click on **heating** breadcrumb <br> (url to `/products/heating/`)
@@ -2605,65 +2605,65 @@ I tested to make sure the following worked as designed and <span style="color:gr
 * Click on **wiring & internal electrics** breadcrumb <br> (url to `/products/wire_int/`)
 
 
-**/engine/**    
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>    
-* Click on **Home** icon <br> (url to `/index/`)   
-* Click on **products** breadcrumb <br> (url to `/products/categories/`)   
+**/engine/**
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
+* Click on **Home** icon <br> (url to `/index/`)
+* Click on **products** breadcrumb <br> (url to `/products/categories/`)
 * Click on **crankshaft** breadcrumb <br> (url to `/products/crankshaft/`)
 * Click on **oil sump** breadcrumb <br> (url to `/products/oilsump/`)
 
-**/exhaust/**    
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>    
-* Click on **Home** icon <br> (url to `/index/`)   
-* Click on **products** breadcrumb <br> (url to `/products/categories/`)   
+**/exhaust/**
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
+* Click on **Home** icon <br> (url to `/index/`)
+* Click on **products** breadcrumb <br> (url to `/products/categories/`)
 
 
-**/external/**    
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>    
-* Click on **Home** icon <br> (url to `/index/`) 
-* Click on **products** breadcrumb <br> (url to `/products/categories/`) 
-* Click on **boot** breadcrumb <br> (url to `/products/boot/`)   
+**/external/**
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
+* Click on **Home** icon <br> (url to `/index/`)
+* Click on **products** breadcrumb <br> (url to `/products/categories/`)
+* Click on **boot** breadcrumb <br> (url to `/products/boot/`)
 * Click on **bumpers** breadcrumb <br> (url to `/products/bumpers/`)
 * Click on **mouldings** breadcrumb <br> (url to `/products/mouldings/`)
 * Click on **radiator grill** breadcrumb <br> (url to `/products/rad_grill/`)
 * Click on **windscreen** breadcrumb <br> (url to `/products/windscreen/`)
 
 
-**/fuel/**    
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>    
-* Click on **Home** icon <br> (url to `/index/`) 
-* Click on **products** breadcrumb <br> (url to `/products/categories/`) 
-* Click on **fuel pipes** breadcrumb <br> (url to `/products/fuel_pipes/`)   
+**/fuel/**
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
+* Click on **Home** icon <br> (url to `/index/`)
+* Click on **products** breadcrumb <br> (url to `/products/categories/`)
+* Click on **fuel pipes** breadcrumb <br> (url to `/products/fuel_pipes/`)
 * Click on **fuel tank & pump** breadcrumb <br> (url to `/products/fuel_tank/`)
 
 
-**/interior/**    
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>    
-* Click on **Home** icon <br> (url to `/index/`) 
-* Click on **products** breadcrumb <br> (url to `/products/categories/`) 
-* Click on **dashboard** breadcrumb <br> (url to `/products/dashboard/`)   
+**/interior/**
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
+* Click on **Home** icon <br> (url to `/index/`)
+* Click on **products** breadcrumb <br> (url to `/products/categories/`)
+* Click on **dashboard** breadcrumb <br> (url to `/products/dashboard/`)
 * Click on **hardtop** breadcrumb <br> (url to `/products/hardtop/`)
 * Click on **hood & tonneau** breadcrumb <br> (url to `/products/hood/`)
 * Click on **seats** breadcrumb <br> (url to `/products/seats/`)
 * Click on **trim kits** breadcrumb <br> (url to `/products/trim_kits/`)
 
 
-**/roadwheels/**    
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>    
-* Click on **Home** icon <br> (url to `/index/`)   
-* Click on **products** breadcrumb <br> (url to `/products/categories/`)   
+**/roadwheels/**
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
+* Click on **Home** icon <br> (url to `/index/`)
+* Click on **products** breadcrumb <br> (url to `/products/categories/`)
 
 
-**/steering/**    
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>    
-* Click on **Home** icon <br> (url to `/index/`) 
-* Click on **products** breadcrumb <br> (url to `/products/categories/`) 
-* Click on **drive line** breadcrumb <br> (url to `/products/drive_line/`)   
+**/steering/**
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
+* Click on **Home** icon <br> (url to `/index/`)
+* Click on **products** breadcrumb <br> (url to `/products/categories/`)
+* Click on **drive line** breadcrumb <br> (url to `/products/drive_line/`)
 * Click on **steering** breadcrumb <br> (url to `/products/steering/`)
 * Click on **suspension** breadcrumb <br> (url to `/products/suspension/`)
 
 **parts cards**
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>  
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
 Each product category has `parts cards` for each part
     **Vote Disliked** (Click to vote disliked)
     **Vote Liked** button (Click to vote liked)
@@ -2672,9 +2672,9 @@ Each product category has `parts cards` for each part
 
 
 **/cart/**
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>  
-* Click on **Home** icon <br> (url to `/index/`) 
-* Click on **products** breadcrumb <br> (url to `/products/categories/`) 
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
+* Click on **Home** icon <br> (url to `/index/`)
+* Click on **products** breadcrumb <br> (url to `/products/categories/`)
 
 `parts cards` added to cart are shown , each `parts card` has the following
  **Qty** selection box (Enter quantity or use up/down arrows to increase/decrease amount required)
@@ -2682,20 +2682,20 @@ I tested to make sure the following worked as designed and <span style="color:gr
  If you decrease `Qty` to `0` the the `parts card` is removed from your basket.
  You can Click on the `products` breadcrumb if you would like to add more items to your basket.
  * click on **checkout** button (url to `/checkout/`)
- 
- 
+
+
  **/checkout/**
- I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br> 
- * Click on **Home** icon <br> (url to `/index/`) 
- * Click on **products** breadcrumb <br> (url to `/products/categories/`) 
+ I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
+ * Click on **Home** icon <br> (url to `/index/`)
+ * Click on **products** breadcrumb <br> (url to `/products/categories/`)
  * Click on **cart** breadcrumb <br> (url to `/products/cart/`)
- 
- 
+
+
 The checkout form has the following fields which are all required unless indicated as follows: <br>
 **Order Details** <br>
-    
+
 **full name** (Input name) Max length=50 <br>
-**Phone number** (Input phone number) Max length=20 <br> 
+**Phone number** (Input phone number) Max length=20 <br>
 **Country** (Input Country) Max length=40 <br>
 **Postcode** (Input Postcode) Max length=20 (Can be left blank) <br>
 **Town or city** (Input Town or city) Max length=40 <br>
@@ -2705,7 +2705,7 @@ The checkout form has the following fields which are all required unless indicat
 
 The payments section has the following fields which are all required to be completed as follows: <br>
 **Payment Details** <br>
-    
+
 **Card number** <br>
     Enter **blank Card number** (Message saying `Could not find payment infomation`) <br>
     Enter **invalid Card number** (Message saying `The card number is not a valid credit card number`) <br>
@@ -2723,21 +2723,21 @@ The payments section has the following fields which are all required to be compl
 **Expiry Year** <br>
     Enter **invalid Expiry year** (Message saying `Your card's expiration year is invalid`) <br>
     Enter **valid Expiry year** for testing stripe use `2020`
-    
-click on **submit payment** button (url to `/index/`) (Message saying `You have successfully paid`) 
-  
-  
+
+click on **submit payment** button (url to `/index/`) (Message saying `You have successfully paid`)
+
+
  **/contact/**
- I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br> 
-  * Click on **Home** icon <br> (url to `/index/`) 
-  * Click on **products** breadcrumb <br> (url to `/products/categories/`) 
+ I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
+  * Click on **Home** icon <br> (url to `/index/`)
+  * Click on **products** breadcrumb <br> (url to `/products/categories/`)
   * Click on **cart** breadcrumb <br> (url to `/products/cart/`)
 
 The contact form has the following fields which are all required unless indicated as follows: <br>
 **Contact form** <br>
-    
+
 **Full name** (Input name) <br>
-**Email** (Input Email) <br> 
+**Email** (Input Email) <br>
 **Phone number** (Input Phone number 10 or 11 digits, but can be left blank if required) <br>
 **Your enquiry** (Input Enquiry) <br>
 
@@ -2748,17 +2748,17 @@ The contact form has the following fields which are all required unless indicate
 **Email ** <br>
     Enter **Blank email** (Message saying `Please fill in this field`) <br>
     Enter **Valid email** for testing used `valid email address`
-    
+
 **Phone number ** <br>
     Enter **Blank phone number** (Message saying `Please fill in this field`) <br>
     Enter **Valid email** for testing used `fredbloggs`
-    
+
 **Your enquiry ** <br>
     Enter **Blank enquiry** (Message saying `Please fill in this field`) <br>
     Enter **Valid enquiry** for testing used `testing testing`
 
-click on **submit enquiry** button (url to `/index/`) <br> 
-(Message saying `Thanks for getting in touch with us, We will get back to you as soon as possible`) 
+click on **submit enquiry** button (url to `/index/`) <br>
+(Message saying `Thanks for getting in touch with us, We will get back to you as soon as possible`)
 
 Your should recive a email thanking you for your enquiry as follows
 ```
@@ -2784,7 +2784,7 @@ Phone:
 
 
 Enquiry:
-test 
+test
 
 yours sincerely
 
@@ -2792,7 +2792,7 @@ Triumphant Triumphs
 ```
 
 **/charts/**
-I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>  
+I tested to make sure the following worked as designed and <span style="color:green">All passed</span> <br>
 * Click on **Home** icon <br> (url to `/index/`) <br>
 There are 4 charts as follows:
 
@@ -2804,42 +2804,42 @@ There are 4 charts as follows:
 
 #### Responsive screen testing
 
-I created some Bootstrap card grids and there was an issue with different size cards , due to image size, issue was resolved by applying the following changes to the height based on size of device. <br> 
+I created some Bootstrap card grids and there was an issue with different size cards , due to image size, issue was resolved by applying the following changes to the height based on size of device. <br>
 
 ```css
-/* ----- Changes to Padding for Messages ----- */ 
+/* ----- Changes to Padding for Messages ----- */
 
 /* iPhone 5 & 5S in portrait & landscape */
 @media (min-width: 320px) and (max-width: 568px) {
-    body { 
-     padding:100px 0 0 0; 
+    body {
+     padding:100px 0 0 0;
 }
-    
+
 /* ADD fixed, scrollable navbar */
 /* see https://codepen.io/ondrejsvestka/pen/BZJEpp */
 .fixed-top .navbar-collapse {
   max-height: 300px;
-  overflow-y: auto;}    
+  overflow-y: auto;}
 }
 
 /* If larger footer */
 @media (max-width: 767px) {
-    body { 
+    body {
      padding:70px 0 0 0; /*(top,right,bottom,Left) */
     }
     .about-container {
      min-height: calc(100vh - 184px); /* navbar 50px, footer 134px */
-    }   
+    }
 }
 
 /* If Smaller footer */
 @media (min-width: 768px) {
-    body { 
+    body {
      padding:70px 0 0 0;
     }
     .about-container {
      min-height: calc(100vh - 100px); /* navbar 50px, footer 50px */
-    }   
+    }
 }
 ```
 
@@ -2853,7 +2853,7 @@ Testing for this project was implemented manually and the majority of the testin
 ### Refactoring
 Refactoring was implemented while developing this project and I am sure there are things that can be done to streamline code even more, in an additional phase of this project.
 1. Creating dynamic product templates for scalablity.
-2. Class based views 
+2. Class based views
 3. Add more detailed error validation to forms
 </details>
 
@@ -2862,28 +2862,28 @@ Refactoring was implemented while developing this project and I am sure there ar
 Step 13 - Bugs and Issues
 </summary>
 <p>
-    
+
 ### Bugs and Issues
 Listed below are some of the issues I have had building the website , but they have all been resolved.
 
 #### Pillow error message
 1. Install pillow
     Have to install pillow 5.4.1 as clould9 uses python3.4
-    
+
     Backwards Incompatible Changes
     Python 3.4 dropped
-    Python 3.4 is EOL since 2019-03-16 and no longer supported.    
-    We will not be creating binaries, testing, or retaining compatibility with this version.   
+    Python 3.4 is EOL since 2019-03-16 and no longer supported.
+    We will not be creating binaries, testing, or retaining compatibility with this version.
     The final version of Pillow for Python 3.4 is 5.4.1.
 
 #### Github vulnerablility message
 
-1. I just pushed my changes to git hub and got a message saying github had found a vulnerability which was `urllib3`  
+1. I just pushed my changes to git hub and got a message saying github had found a vulnerability which was `urllib3`
    needs to be upgraded to 1.24.2 or later, `urllib3` is downloaded when you `pip3 install stripe` should I just reinstall `stripe` ?
 
 2. Upgrade  Urllib3 to 1.24.2
     ```bash
-    bennettpe:~/workspace (master) $ sudo pip3 install urllib3==1.24.2                                                                                                                       
+    bennettpe:~/workspace (master) $ sudo pip3 install urllib3==1.24.2
     Downloading/unpacking urllib3==1.24.2
     Downloading urllib3-1.24.2-py2.py3-none-any.whl (131kB): 131kB downloaded
     Installing collected packages: urllib3
@@ -2918,8 +2918,8 @@ Listed below are some of the issues I have had building the website , but they h
     stripe==2.24.1
     urllib3==1.24.2
     ```
-    
-#### Travis error 
+
+#### Travis error
 1. Travis failed with the following error message `ImportError: No module named 'env'` added the following to the `settings.py` file
     ```python
     # Used locally and not in Heroku
@@ -2941,32 +2941,32 @@ Listed below are some of the issues I have had building the website , but they h
 3. Decided to remove `secrets.sh` file and added email address and password to `env.py` and it all works ok.
 
 #### Stripe api key none
-1. Problem due to settings.py file where it was not picking up `import env` 
+1. Problem due to settings.py file where it was not picking up `import env`
 
-#### 403 issue with Background issue 
+#### 403 issue with Background issue
 ```css
     /* ----- Changes to Header ----- */
     /* ADD background */
     .masthead {
-    width:100%; 
-    height: 100%; 
-    background: url("/static/img/vehicles/Triumph_Spitfire_MKIV_colors.svg") no-repeat center; 
-    background-attachment: scroll; 
-    background-size: cover; 
-   
+    width:100%;
+    height: 100%;
+    background: url("/static/img/vehicles/Triumph_Spitfire_MKIV_colors.svg") no-repeat center;
+    background-attachment: scroll;
+    background-size: cover;
+
     }
 ```
-    
-issue was due to background url not being correct , should have been 
+
+issue was due to background url not being correct , should have been
 
 ```bash
-    background: url("../img/vehicles/Triumph_Spitfire_MKIV_colors.svg") no-repeat center; 
+    background: url("../img/vehicles/Triumph_Spitfire_MKIV_colors.svg") no-repeat center;
 ```
 
 #### 404 issue with media images
-Have added images for **fuel_pipes** and **fuel-tank** but am getting 404's as they dont seem to be added to media folder, 
+Have added images for **fuel_pipes** and **fuel-tank** but am getting 404's as they dont seem to be added to media folder,
 have changed static folder to be on S3 so not sure if thats causing the issue.
-problem was due to having the following line in my **setting.py** file 
+problem was due to having the following line in my **setting.py** file
    ```python
    DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
    ```
@@ -2977,18 +2977,18 @@ problem was due to having the following line in my **setting.py** file
 2. Used the following https://reviews.reviewboard.org/r/5038/diff/2/ and adapted code.
     ```python
     from django.core.serializers.json import DjangoJSONEncoder
-    
+
     class LazyEncoder(DjangoJSONEncoder):
     def default(self, obj):
         return super(LazyEncoder, self).default(obj)
-        
-    dump3 = json.dumps(chart3, cls=LazyEncoder)   
+
+    dump3 = json.dumps(chart3, cls=LazyEncoder)
     ```
-    
+
 #### Issue with only rating working on first card
-1. Problem in **Static/js/ratings.js** was due to using `id=` which would only pick up one element , so slack to the rescue and changed to `class=` and 
+1. Problem in **Static/js/ratings.js** was due to using `id=` which would only pick up one element , so slack to the rescue and changed to `class=` and
    `#` to `.` in my javascript buttons and seems to work ok now.
-   
+
 #### Issue with file links in README.MD
 1. Problem in readme.md file with not seeing linked pdf files was due to the fact I had added spaces in the filename so changed to underscores.G
 
@@ -2996,23 +2996,23 @@ problem was due to having the following line in my **setting.py** file
 1. Had the following error when trying to open Heroku app `ModuleNotFoundError: No module named 'fullstack-frameworks-django-project'`
    On checking had the wrong module name it should be the name of the folder that contains `wsgi.py` file , so the Procfile should have
    been `web: gunicorn triumphant_triumphs.wsgi:application`
-   
+
 #### Readme Issue
 1. I had a problem where the diagram was not being displayed when you opened the readme, this was due to the file being a `pdf` so changed to a
 `jpg` and ok now.
 ```bash
-![Database schema](static/wireframe/My_Full_Stack_Frameworks_with_Django_Database_Schema_Diagram.jpg)   
+![Database schema](static/wireframe/My_Full_Stack_Frameworks_with_Django_Database_Schema_Diagram.jpg)
 Diagram of website database schema
 ```
 
 #### Issue with password length when registering
-1. I checked password length and could add any length password checked `AUTH_PASSWORD_VALIDATORS` in `settings.py` and though it would give 
+1. I checked password length and could add any length password checked `AUTH_PASSWORD_VALIDATORS` in `settings.py` and though it would give
     error messages if the password was less than 8 in length, but looks like its not working and could not find out why not.
 2. add the following check into my accounts app `forms.py`
 ```python
  def clean_password1(self):
         password1 = self.cleaned_data.get('password1')
-        
+
         if len(password1) < 8 or len(password1) > 20:
             raise ValidationError("Invalid Password, must contain between 8 and 20 characters")
         return password1
@@ -3020,10 +3020,10 @@ Diagram of website database schema
 3. This has been fix now to use django password validation see (Issue with Django password validation)
 
 #### Issue with rating icons not refreshing
-1. I had an issue with my button icons not updating the number of liked / disliked when clicked , So I added `location.reload();` in each 
+1. I had an issue with my button icons not updating the number of liked / disliked when clicked , So I added `location.reload();` in each
    of the liked / disliked buttons and it seemed to work ok.
    When I raised this issue on slack they said that I should not have to add the reload to refresh the button clicks.
-2. The problem was due to each liked / disliked button & count not being unique as they had the following coded in `parts_card.html` 
+2. The problem was due to each liked / disliked button & count not being unique as they had the following coded in `parts_card.html`
 ```python
     <span id="prod-disliked">
         {% get_disliked product.id %}
@@ -3034,23 +3034,23 @@ Diagram of website database schema
     </span>
 ```
 3. So I had to find a way of making the buttons and counts unique for liked / disliked, I raised this on slack and John Longgately (johnL3_alumni on      slack) helped me come up with a potential solution as follows.
-4. Button code in `parts_cards.html` was 
+4. Button code in `parts_cards.html` was
 
 Changed from this
 ```html
     <button data-part-number={{ product.part_number }} data-token="{{ csrf_token }}"
         class="disliked-button btn btn-outline-danger" data-toggle="tooltip" title="Vote disliked">
-            <!-- Diskliked votes ---> 
+            <!-- Diskliked votes --->
             <span id="prod-disliked">
     			 {% get_disliked product.id %}
             </span>
             <i class="fas fa-thumbs-down fa-2x"></i>
     </button>
-			        
+
     <button data-part-number="{{ product.part_number }}" data-token="{{ csrf_token }}"
         class="liked-button btn btn-outline-success" data-toggle="tooltip" title="Vote liked">
             <i class="fas fa-thumbs-up fa-2x"></i>
-            <!-- Liked votes ---> 
+            <!-- Liked votes --->
             <span id="prod-liked">
                 {% get_liked product.id %}
             </span>
@@ -3062,21 +3062,21 @@ To this
         id ="b-{{forloop.counter}}"
         class="btn disliked-button" data-toggle="tooltip" title="Vote disliked">
         <i class="fas fa-thumbs-down fa-2x"></i>
-                        
-        <!-- Diskliked votes ---> 
+
+        <!-- Diskliked votes --->
         <span id="bb-{{forloop.counter}}" class="disliked_num">
-            {% get_disliked product.id %} 
+            {% get_disliked product.id %}
         </span>
     </button>
-			         
+
     <button data-part-number="{{ product.part_number }}" data-token="{{ csrf_token }}"
         id ="a-{{forloop.counter}}"
         class="btn liked-button" data-toggle="tooltip" title="Vote liked">
         <i class="fas fa-thumbs-up fa-2x"></i>
-				        
-        <!-- Liked votes ---> 
+
+        <!-- Liked votes --->
         <span id="aa-{{forloop.counter}}" class="liked_num">
-            {% get_liked product.id %} 
+            {% get_liked product.id %}
         </span>
     </button>
 ```
@@ -3089,7 +3089,7 @@ To this
 
 5. Various changes where made to the `ratings.js`
    First it was changed from a `$.post` to a `$.ajax` I am not sure if that was required , but was recommended on slack.
-   
+
 This was added to disliked button
 ```js
  // get id of button clicked
@@ -3099,7 +3099,7 @@ This was added to disliked button
 // Assemble disliked
     let dislike =`#bb-${d[1]}`;
     $(dislike).text(response['new_disliked']);
-                
+
 // Assemble liked
     let l = id.split('-');
     like =`#aa-${l[1]}`;
@@ -3115,7 +3115,7 @@ This was added to liked button
 // Assemble liked
     let like =`#aa-${l[1]}`;
     $(like).text(response['new_liked']);
-                
+
 // Assemble disliked
     let d = id.split('-');
     dislike =`#bb-${d[1]}`;
@@ -3127,21 +3127,21 @@ Output from Chrome developer inspect.
 <div class="card-footer text-center">
     <button data-part-number="307323" data-token="o5rV4b9nGsCZS09h7rpS8LkS9wcRfFzFb9SNmYk5V1lzr0iC4U2l7YV3UpyXlFEd" id="b-1" class="btn disliked-           button" data-toggle="tooltip" title="Vote disliked">
             <i class="fas fa-thumbs-down fa-2x"></i>
-                        
-            <!-- Diskliked votes ---> 
+
+            <!-- Diskliked votes --->
             <span id="bb-1" class="disliked_num">
-    			             0 
+    			             0
             </span>
             </button>
-			         
+
     <button data-part-number="307323" data-token="o5rV4b9nGsCZS09h7rpS8LkS9wcRfFzFb9SNmYk5V1lzr0iC4U2l7YV3UpyXlFEd" id="a-1" class="btn liked-button" data-toggle="tooltip" title="Vote liked">
             <i class="fas fa-thumbs-up fa-2x"></i>
-				        
-            <!-- Liked votes ---> 
+
+            <!-- Liked votes --->
             <span id="aa-1" class="liked_num">
-    			             1 
+    			             1
             </span>
-    </button>		        
+    </button>
 ```
 </details>
 
@@ -3152,7 +3152,7 @@ Step 14 -  Deployment Instructions
 <p>
 
 #### Issue with Django password validation
-1. I was having a problem with the Django password validation not being picked up , apparently according to `niel_ci` it was due to 
+1. I was having a problem with the Django password validation not being picked up , apparently according to `niel_ci` it was due to
    using `extend user model` which must ignore password validation so had to add the following to the `form.py` so that password is now
    checked, also added to password2 validation.
 ```python
@@ -3160,11 +3160,11 @@ from django.contrib.auth import password_validation
 
 def clean_password1(self):
     password1 = self.cleaned_data.get('password1')
-        
+
     password_validation.validate_password(
         self.cleaned_data['password1'],
         self.instance)
-        
+
     return password1
 
     password_validation.validate_password(
@@ -3177,18 +3177,18 @@ def clean_password1(self):
 ##### Instructions for setting up Github Remote repository
 Connecting your local repository to your remote repository and pushing the code from your local repository to your remote repository.
 
-**Create new remote repository**  
-* **Sign into** [GitHub](https://github.com/)  
-* **Click** on **new** button  
-* **Enter** Repository Name `fullstack-frameworks-django-website`  
-* **Enter** Description (optional) `My Fullstack Frameworks with Django Project Repository`  
+**Create new remote repository**
+* **Sign into** [GitHub](https://github.com/)
+* **Click** on **new** button
+* **Enter** Repository Name `fullstack-frameworks-django-website`
+* **Enter** Description (optional) `My Fullstack Frameworks with Django Project Repository`
 * **Click** on Create repository button
 
 
-**From Clould9**  
-from local repository enter the following command which can be cut and pasted from the website as below:     
-    …or push an existing repository from the command line   
-``` bash  
+**From Clould9**
+from local repository enter the following command which can be cut and pasted from the website as below:
+    …or push an existing repository from the command line
+``` bash
     git remote add origin https://github.com/bennettpe/fullstack-frameworks-django-website.git
     git push -u origin master
 ```
@@ -3198,7 +3198,7 @@ After entering these commands you will be asked for your github **Username** and
     bennettpe:~/workspace (master) $ git remote add origin https://github.com/bennettpe/fullstack-frameworks-django-website.git
     bennettpe:~/workspace (master) $ git push -u origin master
     Username for 'https://github.com': bennettpe
-    Password for 'https://bennettpe@github.com': 
+    Password for 'https://bennettpe@github.com':
     Counting objects: 5, done.
     Delta compression using up to 8 threads.
     Compressing objects: 100% (4/4), done.
@@ -3214,32 +3214,32 @@ After entering these commands you will be asked for your github **Username** and
 If you have not Signed up to Heroku then you need to start from **Signing Up To Heroku** , <br> otherwise start from **In Heroku (Part One)**
 
 **Signing Up To Heroku**
-* Sign up to [Heroku](https://id.heroku.com/login)   
-* Click on New to Heroku? `Sign Up` at the bottom of the Log in to your account panel.   
-* Complete the Form by entering your details as required and in 'Primary Development Language Box' Enter `Python`.  
-* After completing the Form your will receive a 'Verification Email', which can take up to 15 minutes to receive.  
-* Open the 'Verification Email' and click on the link and you will be prompted to Enter a password and  <br> click `Here To Proceed button`.  
+* Sign up to [Heroku](https://id.heroku.com/login)
+* Click on New to Heroku? `Sign Up` at the bottom of the Log in to your account panel.
+* Complete the Form by entering your details as required and in 'Primary Development Language Box' Enter `Python`.
+* After completing the Form your will receive a 'Verification Email', which can take up to 15 minutes to receive.
+* Open the 'Verification Email' and click on the link and you will be prompted to Enter a password and  <br> click `Here To Proceed button`.
 
 
 **Heroku Checklist**
-The following needs to be created  
+The following needs to be created
 
-Create a requirements.txt file.  
-Create a Procfile file.  
-Create a new Heroku app.  
-Create any Config variables. 
+Create a requirements.txt file.
+Create a Procfile file.
+Create a new Heroku app.
+Create any Config variables.
 Create Postgres database.
 Push the code to Heroku.
 
 
 **In Heroku (Create app)**
-**Log in** to [Heroku](https://id.heroku.com/login)   
-* Select **New** and **Create new app**.   
-* Create **App name** > Select **Choose a region** > Then **Create app**   
+**Log in** to [Heroku](https://id.heroku.com/login)
+* Select **New** and **Create new app**.
+* Create **App name** > Select **Choose a region** > Then **Create app**
 
 
-**From Cloud9 (Readying for deployment)**   
-Making the **setting.py** file ready for deployment 
+**From Cloud9 (Readying for deployment)**
+Making the **setting.py** file ready for deployment
 
 #### Adding the Database
 1. Converting from Sqlite3 database (Development) to Postgres database (Production).
@@ -3255,7 +3255,7 @@ Making the **setting.py** file ready for deployment
     DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
     ```
 10. Run the following command `python3 manage.py makemigrations`
-11. Run the following command `python3 manage.py migrate` this should migrate all the existing migrations to the <br> postgres database, because this is a new 
+11. Run the following command `python3 manage.py migrate` this should migrate all the existing migrations to the <br> postgres database, because this is a new
     database which is currently empty.
 12. Then create a superuser.
 
@@ -3265,11 +3265,11 @@ Making the **setting.py** file ready for deployment
     **Comment from Mentor** <br>
     The trick is getting **db.json** to heroku without putting it in source control. personally I'd stick it in a S3 bucket and then use `wget` or `ssh` to get it on heroku. <br> you can use `heroku run bash` from your C9 terminal to log into a bash terminal on heroku itself and then cd/ls/whatever your way around to find the folder with **manage.py** in it (it should dump you there by default IIRC) <br>
     or if you don't care about the data (which you probably don't, but still ...) you could just commit db.json to source control and push it. <br> Obviously in the real world dumping your entire database into a JSON file and putting it in your github repo would not be recommended though.
-    
+
     I would recommend you dump the whole database and reload the whole database into postgres. <br> Reason being: your tables are interconnected with relationships so if you try to load a bunch of products into your database on heroku w/ any users it will have all sorts of integrity errors
     then if you recreate the users on heroku they will have different ids and such so it's best to just dump everything and import everything, **except permissions and contenttypes**.
-    
-   So based on that info / advice I did the following,    
+
+   So based on that info / advice I did the following,
 2. Make sure you point to your Sqlite3 db (Comment out `DATABASE_URL`) key in your **env.py**
 3. Run this command on Cloud9 workspace <br> `python3 manage.py dumpdata --exclude auth.permission --exclude contenttypes > db.json` which creates a      db in json format , it does not look much as its minified, if you want to created a non-minified version then run this command <br>
    `python3 manage.py dumpdata --exclude auth.permission --exclude contenttypes --indent 2 > db.json`. <br>
@@ -3315,7 +3315,7 @@ Making the **setting.py** file ready for deployment
     ```
 9. Run the following command pointing at the db.json file created on `temp` directory on S3 <br>
     `$ wget https://s3-eu-west-1.amazonaws.com/pauls-fullstack-frameworks-django-project/temp/db.json`
-    
+
     ```bash
     ~ $ wget https://s3-eu-west-1.amazonaws.com/pauls-fullstack-frameworks-django-project/temp/db.json
     --2019-05-23 18:53:54--  https://s3-eu-west-1.amazonaws.com/pauls-fullstack-frameworks-django-project/temp/db.json
@@ -3324,8 +3324,8 @@ Making the **setting.py** file ready for deployment
     HTTP request sent, awaiting response... 200 OK
     Length: 230997 (226K) [application/json]
     Saving to: 'db.json'
-    
-    db.json                                       100%[==============================================================================================>] 225.58K  --.-KB/s    in 0.009s  
+
+    db.json                                       100%[==============================================================================================>] 225.58K  --.-KB/s    in 0.009s
 
     2019-05-23 18:53:54 (24.5 MB/s) - 'db.json' saved [230997/230997]
     ```
@@ -3342,36 +3342,36 @@ Making the **setting.py** file ready for deployment
     AWS_ACCESS_KEY_ID
     AWS_SECRET_ACCESS_KEY
     EMAIL_ADDRESS
-    EMAIL_PASSWORD    
+    EMAIL_PASSWORD
     STRIPE_PUBLISHABLE
     STRIPE_SECRET
     SECRET_KEY
 ```
 
-3. Go to **Deploy** and click on **Github** button and search for your repro and **connect** to it. 
+3. Go to **Deploy** and click on **Github** button and search for your repro and **connect** to it.
 4. Gunicorn is a package thats required to connet to Heroku, Install Gunicorn <br> if you have not already done so by typing `sudo pip3 install gunicorn`
    If you have just installed Gunicorn then make sure the requirements file is updated by typing `sudo pip3 freeze --local > requirements.txt`
 
 5. We also need to create a **Procfile** which tell Heroku what type of app is getting,
-   Type in the following command in the terminal window, which creates the **Procfile file** (Remember to use a capital P in Procfile).   
-   `echo web: gunicorn fullstack-frameworks-project.wsgi:application > Procfile` 
+   Type in the following command in the terminal window, which creates the **Procfile file** (Remember to use a capital P in Procfile).
+   `echo web: gunicorn fullstack-frameworks-project.wsgi:application > Procfile`
 
-6. We need to  `git add .` and  `git commit -m "Added Procfile for deployment"` `git push` 
+6. We need to  `git add .` and  `git commit -m "Added Procfile for deployment"` `git push`
 
 7. Because we are using `Static` on S3 we need to add `DISABLE_COLLECTSTATIC to 1` in Config Vars.
 
-8. Before deploying branch we need to add our new host to `ALLOWED_HOSTS` in the settings.py file 
+8. Before deploying branch we need to add our new host to `ALLOWED_HOSTS` in the settings.py file
     ```python
     ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'),  'fullstack-frameworks-project.herokuapp.com']
     ```
-    
-9. check git with a `git status` if theres anything to copy then do  `git add .` and  `git commit -m "blaa"` `git push` 
- 
+
+9. check git with a `git status` if theres anything to copy then do  `git add .` and  `git commit -m "blaa"` `git push`
+
 
 This has now deployed our app to Heroku.
 
 
-**In Heroku (Open app)**    
+**In Heroku (Open app)**
 * Click Open app
 * Select new tab, [My Fullstack Frameworks with Django project](https://fullstack-frameworks-project.herokuapp.com/)
 </details>

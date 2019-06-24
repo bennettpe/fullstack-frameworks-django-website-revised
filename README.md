@@ -5,7 +5,7 @@
 ## eCommerce Webshop
 Heroku App: https://fullstack-frameworks-project.herokuapp.com <br>
 Heroku git: https://git.heroku.com/fullstack-frameworks-project.git <br>
-GitHub: https://github.com/bennettpe/fullstack-frameworks-django-website.git <br>
+GitHub: https://github.com/bennettpe/fullstack-frameworks-django-website-revised <br>
 
 This is the milestone project that I have created for the **“Full Stack Frameworks with Django”** module, which is part of  “Full Stack Web Development Course” offered by Code Institute.
 

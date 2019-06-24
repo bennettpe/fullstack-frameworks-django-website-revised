@@ -1,3 +1,4 @@
+dist: xenial
 language: python
 python:
     - "3.7"
@@ -5,4 +6,4 @@ install:
   - 'pip install pipenv'
   - 'pipenv install'
 script:
-- SECRET_KEY="blah" ./manage.py test
+- SECRET_KEY="whateveritmaybe" python ./manage.py test

@@ -2,6 +2,7 @@
 {% load bootstrap_tags %}
 
 {% block content %}
+<title> Fullstack Frameworks with Django Project "REGISTRATION.HTML" (Paul Bennett) </title>
 
 <!-- REGISTRATION FORM -->
 <div class="container register-container">
@@ -10,13 +11,13 @@
 		<li class="breadcrumb-item active"> Register </li>
 		<li class="breadcrumb-item"> <a href="{% url 'password_reset' %}"> Reset Password </a></li>
     </ol>
-    
+
 	<div class="row justify-content-md-center">
 		<div class="col-md-6">
 			<form method="POST">
                  {% csrf_token %}
                  {{ registration_form | as_bootstrap }}
-    
+
 				<div class="text-center">
 					<button type="submit" class="btn btn-success mt-4"> Sign up </button>
 				</div>

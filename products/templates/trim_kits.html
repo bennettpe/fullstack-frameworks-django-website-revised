@@ -1,7 +1,9 @@
-{% extends 'base.html' %} 
-{% load static %} 
+{% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
+<title> Fullstack Frameworks with Django Project "TRIM_KITS.HTML" (Paul Bennett) </title>
+
  <!-- SEATS -->
 <div class="container seats-container">
     <ol class="breadcrumb bcrumb-margins">
@@ -13,7 +15,7 @@
         <li class="breadcrumb-item"> <a href="{% url 'hood' %}"> Hood & Tonneau </a></li>
         <li class="breadcrumb-item"> <a href="{% url 'seats' %}"> Seats </a></li>
         <li class="breadcrumb-item active"> Trim Kits </li>
-        
+
     </ol>
 
     <!-- Parts Heading -->
@@ -45,5 +47,5 @@
 </div>
 
 <!-- BACK TO TOP -->
-{% include 'bttop.html' %} 
+{% include 'bttop.html' %}
 {% endblock %}

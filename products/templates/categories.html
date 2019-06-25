@@ -1,13 +1,15 @@
-{% extends 'base.html' %} 
-{% load staticfiles %} 
-{% load bootstrap_tags %} 
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load bootstrap_tags %}
 
 {% block content %}
+<title> Fullstack Frameworks with Django Project "CATEGORIES.HTML" (Paul Bennett) </title>
+
 <!-- CATEGORIES -->
 <section class="container categories-container mx-auto">
     <ol class="breadcrumb bcrumb-margins">
-        <li class="breadcrumb-item"> 
-            <a href="{% url 'index' %}"> <i class="fas fa-home fa-lg"></i> </a> 
+        <li class="breadcrumb-item">
+            <a href="{% url 'index' %}"> <i class="fas fa-home fa-lg"></i> </a>
         </li>
         <li class="breadcrumb-item active"> Products </li>
     </ol>
@@ -127,5 +129,5 @@
 </section>
 
 <!-- FOOTER -->
-{% include 'footer.html' %} 
+{% include 'footer.html' %}
 {% endblock %}

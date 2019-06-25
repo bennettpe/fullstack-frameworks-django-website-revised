@@ -1,8 +1,10 @@
-{% extends 'base.html' %} 
-{% load staticfiles %} 
-{% load bootstrap_tags %} 
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load bootstrap_tags %}
 
 {% block content %}
+<title> Fullstack Frameworks with Django Project "CART.HTML" (Paul Bennett) </title>
+
  <!-- CART -->
 <div class="container">
     <ol class="breadcrumb bcrumb-margins">
@@ -12,9 +14,9 @@
     </ol>
 
     <h2> Your Basket <i class="fas fa-shopping-basket"></i> {% if not cart_items %} is empty {% endif %} </h2>
-        
+
     <!-- Parts Cards -->
-    <div class="row p-4"> 
+    <div class="row p-4">
         {% for item in cart_items %}
         <div class="col-md-3 p-2">
             <div class="card h-100 mb-3">
@@ -58,5 +60,5 @@
 </div>
 
 <!-- BACK TO TOP -->
-{% include 'bttop.html' %} 
+{% include 'bttop.html' %}
 {% endblock %}

@@ -1,6 +1,6 @@
-from django.conf.urls import url
+from django.urls import path
 from .views import about
 
 urlpatterns = [
-    url(r'^$', about, name='about'),
+    path('', about, name='about'),
     ]

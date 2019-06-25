@@ -1,7 +1,9 @@
-{% extends 'base.html' %} 
-{% load static %} 
+{% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
+<title> Fullstack Frameworks with Django Project "FUEL_TANK.HTML" (Paul Bennett) </title>
+
  <!-- FUEL TANK -->
 <div class="container fuel-tank-container">
     <ol class="breadcrumb bcrumb-margins">
@@ -10,7 +12,7 @@
         <li class="breadcrumb-item"> <a href="{% url 'fuel' %}"> Carburettors </a></li>
         <li class="breadcrumb-item"> <a href="{% url 'fuel_pipes' %}"> Fuel Pipes </a></li>
         <li class="breadcrumb-item active">Fuel Tank and pump </li>
-       
+
     </ol>
 
     <!-- Parts Heading -->
@@ -38,5 +40,5 @@
 </div>
 
 <!-- BACK TO TOP -->
-{% include 'bttop.html' %} 
+{% include 'bttop.html' %}
 {% endblock %}

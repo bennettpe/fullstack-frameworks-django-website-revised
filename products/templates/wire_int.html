@@ -1,7 +1,9 @@
-{% extends 'base.html' %} 
-{% load static %} 
+{% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
+<title> Fullstack Frameworks with Django Project "WIRE_INT.HTML" (Paul Bennett) </title>
+
 <!-- WIRING & INTERNAL ELECTRICS -->
 <div class="container wiring-container">
     <ol class="breadcrumb bcrumb-margins">
@@ -32,11 +34,11 @@
             <h2 class="mb-2"> Internal electrics </h2>
         </div>
     </div>
-    
+
     <!-- Parts Cards -->
     {% include 'parts_cards.html' %}
 </div>
 
 <!-- BACK TO TOP -->
-{% include 'bttop.html' %} 
+{% include 'bttop.html' %}
 {% endblock %}

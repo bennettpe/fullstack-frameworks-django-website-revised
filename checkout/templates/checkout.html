@@ -2,16 +2,21 @@
 {% load static %}
 {% load bootstrap_tags %}
 
+{% block page_title %}
+<title> Checkout </title>
+{% endblock page_title%}
+
 {% block head_js %}
 <!-- STRIPE -->
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+<script type="text/javascript" src="https://js.stripe.com/v3/"></script>
 <script type="text/javascript">
-//<![CDATA[
-Stripe.publishableKey = '{{ publishable }}';
-//]]>
+    //<![CDATA[
+    Stripe.publishableKey = '{{ publishable }}';
+    //]]>
 </script>
 <script type="text/javascript" src="{% static 'js/stripe.js' %}"></script>
-{% endblock %}
+{% endblock head_js %}
 
 {% block content %}
 <title> Fullstack Frameworks with Django Project "CHECKOUT.HTML" (Paul Bennett) </title>
@@ -73,4 +78,4 @@ Stripe.publishableKey = '{{ publishable }}';
 
 <!-- BACK TO TOP -->
 {% include 'bttop.html' %}
-{% endblock %}
+{% endblock content %}

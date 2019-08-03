@@ -1,15 +1,13 @@
-from django.conf import settings
-from django.contrib import messages
-from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404, reverse, redirect
-from django.template.context_processors import csrf
-from django.utils import timezone
-
+from django.contrib.auth.decorators import login_required
+from django.contrib import messages
 from .forms import MakePaymentForm, OrderForm
 from .models import OrderLineItem
+from django.conf import settings
+from django.utils import timezone
 from products.models import Product
-
 import stripe
+
 
 # Create your views here.
 
@@ -28,6 +26,7 @@ def checkout(request):
 
             cart = request.session.get('cart', {})
             total = 0
+
             for id, quantity in cart.items():
                 product = get_object_or_404(Product, pk=id)
                 total += quantity * product.price
@@ -62,4 +61,3 @@ def checkout(request):
         order_form = OrderForm()
 
     return render(request, "checkout.html", {'order_form': order_form, 'payment_form': payment_form, 'publishable': settings.STRIPE_PUBLISHABLE})
-
